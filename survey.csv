@@ -14,9 +14,7 @@
 12;Estudante de Graduação;21 a 30 anos;Ceilândia;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;ICC Norte;PAT;PJC;CO;
 13;Estudante de Graduação;21 a 30 anos;Sobradinho;;3;Ônibus;Frente do ICC norte;Faculdade de educação;;ICC Norte;PAT;BCE;ICC Sul;Faculdade de Educação;
 14;Estudante de Graduação;Até 20 anos;Sobradinho Ii;;4;Ônibus;Frente do ICC norte;Frente do ICC norte;;PAT;ICC Norte;ICC Sul;Restaurante Universitário (RU);BSA NORTE;Não
-15;Estudante de Graduação;Até 20 anos;Park Way;;4;Automóvel;;;ICC Norte;ICC Norte;BSA SUL;PAT;ICC Centro;BSA NORTE;acredito que as perguntas exigem uma únuca resposta, mas isso não é possivel. 
-Normalmente vou para a unb de carro, mas algumas vezes por semana vou de ônibus. Nunca me dirijo aos prédios em uma ordem específica, isso depende da minha grade do dia.
-Entre outras respostas que são subjetivas.
+15;Estudante de Graduação;Até 20 anos;Park Way;;4;Automóvel;;;ICC Norte;ICC Norte;BSA SUL;PAT;ICC Centro;BSA NORTE;acredito que as perguntas exigem uma únuca resposta, mas isso não é possivel. Normalmente vou para a unb de carro, mas algumas vezes por semana vou de ônibus. Nunca me dirijo aos prédios em uma ordem específica, isso depende da minha grade do dia. Entre outras respostas que são subjetivas.
 16;Estudante de Graduação;21 a 30 anos;Jardim Botânico;;4;Ônibus;Frente do ICC norte;Frente do ICC sul;;ICC Norte;PAT;Restaurante Universitário (RU);BCE;;
 17;Estudante de Graduação;Até 20 anos;Plano Piloto;;5;Automóvel;;;ICC Norte;PAT;Faculdade de Tecnologia e Laboratório de Estrutura (FT);Faculdade de Educação;;;
 19;Estudante de Graduação;21 a 30 anos;Samambaia;;4;Ônibus;Frente do ICC sul;Lateral ICC norte;;Restaurante Universitário (RU);Faculdade de Educação;Faculdade de Tecnologia e Laboratório de Estrutura (FT);PJC;PAT;não houve dificuldade mas acredito que seria melhor 'quais locais você frequenta na UnB'
@@ -99,8 +97,7 @@ Entre outras respostas que são subjetivas.
 95;Estudante de Graduação;21 a 30 anos;Samambaia;;5;Ônibus;Frente do IB;Faculdade da saúde;;BSA SUL;Instituto de Biologia;ICC Sul;ICC Norte;Faculdade de Educação;
 96;Estudante de Graduação;21 a 30 anos;Planaltina;;4;Ônibus;Faculdade de educação;Frente do ICC sul;;ICC Norte;BCE;ICC Sul;;;
 97;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;Posto de gasolina;Frente do ICC norte;;FACE;PJC;BSA SUL;Restaurante Universitário (RU);;
-98;Estudante de Graduação;21 a 30 anos;Samambaia;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;SG1 ao SG4 (IDA / MUS);BCE;PJC;;'Pelo menos para mim, não apareceu uma lista vertical, e sim uma horizontal no teclado com as opções. Isso foi confuso no começo, pois eu não sabia quais eram as opções, e quão detalhista elas eram.
- Boa sorte!'
+98;Estudante de Graduação;21 a 30 anos;Samambaia;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;SG1 ao SG4 (IDA / MUS);BCE;PJC;;'Pelo menos para mim, não apareceu uma lista vertical, e sim uma horizontal no teclado com as opções. Isso foi confuso no começo, pois eu não sabia quais eram as opções, e quão detalhista elas eram. Boa sorte!'
 99;Estudante de Graduação;21 a 30 anos;Itapoã;;5;Ônibus;IDA;IDA;;SG1 ao SG4 (IDA / MUS);Restaurante Universitário (RU);ICC Sul;BCE;Restaurante Universitário (RU);O layout é bem difícil de usar no celular
 100;Estudante de Graduação;Até 20 anos;Riacho Fundo;;4;Ônibus;Lateral ICC norte;Lateral ICC norte;;PJC;PAT;BSA NORTE;;;
 101;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;BSA SUL;ICC Sul;Faculdade de Educação;;;
@@ -202,8 +199,7 @@ Entre outras respostas que são subjetivas.
 198;Estudante de Graduação;21 a 30 anos;Sobradinho Ii;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;BSA SUL;BCE;Instituto de Biologia;Instituto de Química;
 199;Estudante de Graduação;21 a 30 anos;Guará;;3;Ônibus;Frente do ICC norte;Lateral ICC norte;;ICC Norte;PJC;PAT;SG1 ao SG4 (IDA / MUS);Restaurante Universitário (RU);
 200;Estudante de Graduação;21 a 30 anos;Gama;;1;Ônibus;Frente do ICC norte;Frente do ICC sul;;ICC Norte;Restaurante Universitário (RU);Restaurante Universitário (RU);;;
-201;Estudante de Graduação;60 anos ou mais;Park Way;;5;Automóvel;;;ICC Sul;Instituto de Química;BSA SUL;ICC Sul;ICC Sul;BSA SUL;'Não.
-Sim.'
+201;Estudante de Graduação;60 anos ou mais;Park Way;;5;Automóvel;;;ICC Sul;Instituto de Química;BSA SUL;ICC Sul;ICC Sul;BSA SUL;'Não. Sim.'
 202;Estudante de Graduação;Até 20 anos;Taguatinga;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;MASC Sul (Amarelinho);FACE;FACE;BCE;
 203;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Lateral ICC sul;Lateral ICC norte;;ICC Sul;ICC Centro;Restaurante Universitário (RU);PAT;ICC Norte;
 204;Estudante de Graduação;21 a 30 anos;Santa Maria;;3;Ônibus;Frente do ICC norte;Frente do ICC norte;;BSA NORTE;ICC Norte;FACE;BCE;ICC Centro;Iniciativa muito boa, importante contribuição para comunidade acadêmica, parabéns.
