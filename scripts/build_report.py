@@ -20,7 +20,7 @@ from pyvis.network import Network
 warnings.filterwarnings('ignore')
 
 # ── 0. CONFIGURAÇÃO DE CAMINHOS ─────────────────────────────────
-OUT = '/mnt/HDD1TB/Documentos/testes_city2graph'
+OUT = os.getcwd()
 os.makedirs(os.path.join(OUT, 'assets', 'maps'), exist_ok=True)
 
 # ── 0.1 FAVICON ─────────────────────────────────────────────────
