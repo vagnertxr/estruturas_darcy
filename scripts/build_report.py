@@ -643,7 +643,7 @@ body {{ background:var(--bg); color:var(--text); font-family:var(--sans);
 
 header {{ border-bottom:1px solid var(--bord); padding:50px 28px 34px;
           max-width:1400px; margin:0 auto; }}
-.eyebrow {{ font-family:var(--mono); font-size:0.68rem; color:var(--acc);
+.eyebrow {{ font-family:var(--mono); font-size:1rem; color:var(--acc);
              letter-spacing:0.16em; text-transform:uppercase; margin-bottom:12px; }}
 header h1 {{ font-family:var(--mono); font-size:2.8rem; font-weight:600;
               color:var(--text); line-height:1.2; margin-bottom:20px; }}
@@ -875,7 +875,7 @@ tbody tr:hover td {{ background:rgba(255,255,255,0.025); }}
 </div>
 
 <footer style="line-height:1.8; color:var(--muted); text-align:center; border-top:1px solid var(--bord); margin-top:80px; padding:40px 20px;">
-  <em>ELaborado em 2026</em><br><br>
+  <em>Elaborado em 2026</em><br><br>
   <span style="font-size:0.75rem; color:var(--dim);">
     Gerado com Python · city2graph {city2graph.__version__} · Plotly · PyVis · NetworkX
   </span>
