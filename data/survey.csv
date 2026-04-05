@@ -1,0 +1,313 @@
+﻿id;situacao_unb;faixa_etaria;ra;municipio;dias_freq;modal;parada_cheg;parada_said;estacionamento_freq;p1;p2;p3;p4;p5;feedback
+3;Estudante de Graduação;Até 20 anos;Sobradinho;;4;Automóvel;;;PAT / PJC;PJC;ICC Norte;BCE;ICC Sul;;
+18;Estudante de Graduação;21 a 30 anos;Sobradinho;;5;Automóvel;;;BSA Sul;CO;Restaurante Universitário (RU);BSA SUL;;;
+1;Estudante de Pós-Graduação;21 a 30 anos;Samambaia;;4;Automóvel;;;ICC Sul;ICC Centro;Restaurante Universitário (RU);BCE;;;
+2;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Automóvel;;;FE-5;Faculdade de Educação;Restaurante Universitário (RU);BCE;ICC Norte;ICC Sul;
+4;Estudante de Graduação;Até 20 anos;Plano Piloto;;4;Ônibus;Faculdade de educação;Frente do ICC sul;;Restaurante Universitário (RU);Faculdade de Educação;Faculdade de Educação;;;
+5;Estudante de Graduação;Até 20 anos;Ceilândia;;5;Ônibus;Frente do ICC norte;Pavilhões;;ICC Norte;BSA SUL;Restaurante Universitário (RU);BCE;;
+6;Estudante de Graduação;21 a 30 anos;Jardim Botânico;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);ICC Norte;PJC;Faculdade de Educação;BCE;
+7;Estudante de Graduação;21 a 30 anos;Ceilândia;;3;Ônibus;Frente do ICC norte;Frente do ICC sul;;ICC Centro;PAT;BSA NORTE;Faculdade de Direito - FD;ICC Sul;
+8;Estudante de Graduação;21 a 30 anos;Guará;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;Faculdade de Educação;Restaurante Universitário (RU);ICC Norte;PJC;ICC Norte;
+9;Estudante de Graduação;Até 20 anos;Ceilândia;;4;Ônibus;Faculdade de tecnologia;Lateral ICC norte;;Restaurante Universitário (RU);ICC Norte;PJC;PAT;BSA NORTE;
+10;Estudante de Graduação;21 a 30 anos;Plano Piloto;;5;Ônibus;SQN 406 (Lado oposto ao CEAN);BSAS/FS;;BSA SUL;ICC Sul;ICC Norte;PJC;FACE;
+11;Estudante de Graduação;21 a 30 anos;Águas Claras;;3;Ônibus;Faculdade de tecnologia;Pavilhões;;BSA NORTE;Restaurante Universitário (RU);PJC;;;
+12;Estudante de Graduação;21 a 30 anos;Ceilândia;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;ICC Norte;PAT;PJC;CO;
+13;Estudante de Graduação;21 a 30 anos;Sobradinho;;3;Ônibus;Frente do ICC norte;Faculdade de educação;;ICC Norte;PAT;BCE;ICC Sul;Faculdade de Educação;
+14;Estudante de Graduação;Até 20 anos;Sobradinho Ii;;4;Ônibus;Frente do ICC norte;Frente do ICC norte;;PAT;ICC Norte;ICC Sul;Restaurante Universitário (RU);BSA NORTE;Não
+15;Estudante de Graduação;Até 20 anos;Park Way;;4;Automóvel;;;ICC Norte;ICC Norte;BSA SUL;PAT;ICC Centro;BSA NORTE;acredito que as perguntas exigem uma únuca resposta, mas isso não é possivel.Normalmente vou para a unb de carro, mas algumas vezes por semana vou de ônibus.Nunca me dirijo aos prédios em uma ordem específica, isso depende da minha grade do dia. Entre outras respostas que são subjetivas.
+16;Estudante de Graduação;21 a 30 anos;Jardim Botânico;;4;Ônibus;Frente do ICC norte;Frente do ICC sul;;ICC Norte;PAT;Restaurante Universitário (RU);BCE;;
+17;Estudante de Graduação;Até 20 anos;Plano Piloto;;5;Automóvel;;;ICC Norte;PAT;Faculdade de Tecnologia e Laboratório de Estrutura (FT);Faculdade de Educação;;;
+19;Estudante de Graduação;21 a 30 anos;Samambaia;;4;Ônibus;Frente do ICC sul;Lateral ICC norte;;Restaurante Universitário (RU);Faculdade de Educação;Faculdade de Tecnologia e Laboratório de Estrutura (FT);PJC;PAT;não houve dificuldade mas acredito que seria melhor 'quais locais você frequenta na UnB'
+20;Estudante de Graduação;Até 20 anos;Taguatinga;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);ICC Sul;ICC Sul;BSA SUL;;
+21;Estudante de Graduação;Até 20 anos;Santa Maria;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);ICC Norte;PAT;Restaurante Universitário (RU);ICC Sul;
+22;Servidor;21 a 30 anos;Sobradinho;;3;Automóvel;;;Biblioteca (BCE);Reitoria;BCE;ICC Sul;;;Na parte sobre onde estaciono meu carro, está faltando o prédio da Reitoria, não encontrei essa opção.
+23;Estudante de Graduação;21 a 30 anos;Arniqueira;;5;Ônibus;Frente do ICC norte;Pavilhões;;ICC Centro;CIC/EST;BSA NORTE;Restaurante Universitário (RU);PJC;
+24;Estudante de Graduação;Até 20 anos;Taguatinga;;5;Ônibus;Pavilhões;Pavilhões;;ICC Norte;Restaurante Universitário (RU);BCE;ICC Norte;;Acredito que a pesquisa deveria focar também sobre as linhas diretas que ligam as RAs ao campus. Afinal, um ônibus que só passa uma vez a cada 2h, ou uma vez a cada 6h, torna a mobilidade precária.
+25;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;PJC;Restaurante Universitário (RU);;;
+26;Estudante de Graduação;21 a 30 anos;Candangolândia;;4;Ônibus;ICC SUL/FS;ICC SUL/FS;;ICC Sul;Faculdade de Direito - FD;BSA NORTE;BSA SUL;Faculdade de Medicina (FS);
+27;Estudante de Graduação;31 a 39 anos;Lago Norte;;3;Automóvel;;;FD;Faculdade de Direito - FD;Faculdade de Direito - FD;Faculdade de Direito - FD;;;
+28;Estudante de Graduação;21 a 30 anos;Plano Piloto;;5;Automóvel;;;FD;Faculdade de Direito - FD;Restaurante Universitário (RU);ICC Norte;ICC Sul;MASC Norte (Amarelinho);
+29;Estudante de Graduação;31 a 39 anos;Plano Piloto;;5;Ônibus;Posto de gasolina;Posto de gasolina;;Faculdade de Direito - FD;ICC Norte;BSA NORTE;Restaurante Universitário (RU);Faculdade de Direito - FD;
+30;Estudante de Graduação;Até 20 anos;Núcleo Bandeirante;;5;Ônibus;FD/ASFUB;Lateral ICC norte;;ICC Norte;Restaurante Universitário (RU);Faculdade de Tecnologia e Laboratório de Estrutura (FT);ICC Norte;;
+31;Estudante de Graduação;Até 20 anos;Taguatinga;;5;Ônibus;Frente do ICC sul;FD/ASFUB;;ICC Sul;PAT;ICC Centro;;;
+32;Estudante de Graduação;21 a 30 anos;Itapoã;;4;Ônibus;Frente do IB;BSAS/FS;;BSA SUL;ICC Sul;Instituto de Biologia;Faculdade de Medicina (FS);;
+33;Estudante de Graduação;21 a 30 anos;Riacho Fundo;;5;Ônibus;BCE;BCE;;PAT;BCE;BCE;BCE;BCE;
+34;Estudante de Graduação;Até 20 anos;Jardim Botânico;;5;Automóvel;;;ICC Sul;ICC Sul;ICC Sul;Instituto de Biologia;Hospital Veterinário;BSA SUL;
+35;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;Pavilhões;Pavilhões;;PAT;PJC;BCE;;;Linguagem clara
+36;Estudante de Graduação;21 a 30 anos;Gama;;5;Ônibus;Posto de gasolina;Posto de gasolina;;Faculdade de Direito - FD;BSA NORTE;ICC Sul;PAT;FACE;
+37;Estudante de Graduação;21 a 30 anos;Plano Piloto;;5;Automóvel;;;FD;Faculdade de Direito - FD;BCE;MASC Centro (Amarelinho);MASC Norte (Amarelinho);;
+38;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;Pavilhões;Lateral ICC norte;;Restaurante Universitário (RU);Faculdade de Direito - FD;BSA NORTE;MASC Norte (Amarelinho);;
+39;Estudante de Graduação;Até 20 anos;Taguatinga;;5;Ônibus;Posto de gasolina;Posto de gasolina;;Faculdade de Direito - FD;Faculdade de Direito - FD;BSA NORTE;BSA NORTE;Faculdade de Direito - FD;
+40;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;Frente do ICC norte;Frente do ICC sul;;ICC Norte;PJC;PAT;ICC Sul;BCE;
+41;Estudante de Graduação;31 a 39 anos;Varjão;;5;Ônibus;Frente do ICC norte;Frente do ICC norte;;Faculdade de Direito - FD;Restaurante Universitário (RU);Faculdade de Direito - FD;;;
+42;Estudante de Graduação;21 a 30 anos;Águas Claras;;3;Ônibus;Faculdade de tecnologia;Pavilhões;;BSA NORTE;Restaurante Universitário (RU);PJC;;;
+43;Estudante de Pós-Graduação;41 a 49 anos;Samambaia;;1;Automóvel;;;ICC Norte;ICC Norte;Restaurante Universitário (RU);ICC Norte;ICC Norte;;Deveria ter a opção nenhum nos 5 locais q vc mais frequentar. Talvez alguém não frequenta tanto espaços no mesmo dia
+44;Estudante de Graduação;21 a 30 anos;Riacho Fundo;;5;Ônibus;Multiuso 1;Multiuso 1;;ICC Centro;BSA NORTE;Restaurante Universitário (RU);ICC Sul;CIC/EST;
+45;Estudante de Graduação;21 a 30 anos;Riacho Fundo;;1;Ônibus;Faculdade da saúde;Faculdade da saúde;;BSA SUL;Faculdade de Medicina (FS);HUB;;;
+46;Estudante de Graduação;21 a 30 anos;Santa Maria;;3;Ônibus;SQN 606 CEAN;Frente do ICC sul;;Faculdade de Educação;ICC Centro;Restaurante Universitário (RU);;;
+47;Professor;31 a 39 anos;Plano Piloto;;5;Automóvel;;;FS;Faculdade de Medicina (FS);Faculdade de Direito - FD;HUB;;;
+48;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Faculdade de educação;Lateral ICC norte;;Faculdade de Tecnologia e Laboratório de Estrutura (FT);SG12;ICC Norte;;;Não pude dizer com certeza se selecionei a parada correta próxima ao ICC Norte, se é a próxima do PAT ou da FT
+49;Estudante de Graduação;21 a 30 anos;Vicente Pires;;1;Ônibus;Frente do ICC sul;Pavilhões;;PAT;ICC Norte;ICC Sul;ICC Centro;BSA NORTE;
+50;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Frente do ICC norte;Frente do IB;;ICC Norte;Restaurante Universitário (RU);BCE;;;
+51;Estudante de Graduação;Até 20 anos;Taguatinga;;5;Ônibus;Frente do ICC norte;Lateral ICC norte;;ICC Norte;Restaurante Universitário (RU);ICC Sul;BCE;ICC Norte;
+52;Estudante de Pós-Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);ICC Centro;Faculdade de Medicina (FS);;;
+120;Estudante de Graduação;31 a 39 anos;Santa Maria;;2;Motocicleta;;;FACE;PJC;PJC;PJC;PJC;PJC;
+53;Estudante de Pós-Graduação;21 a 30 anos;Varjão;;1;Ônibus;SQN 406 (Lado oposto ao CEAN);SQN 406 (Lado oposto ao CEAN);;ICC Centro;ICC Norte;ICC Sul;BCE;Restaurante Universitário (RU);
+79;Estudante de Graduação;Até 20 anos;Ceilândia;;5;Ônibus;Frente do IB;Faculdade da saúde;;ICC Sul;Instituto de Biologia;BSA SUL;Hospital Veterinário;Restaurante Universitário (RU);
+54;Estudante de Pós-Graduação;21 a 30 anos;Plano Piloto;;2;Automóvel;;;ICC Sul;ICC Sul;Restaurante Universitário (RU);SG12;BCE;Faculdade de Tecnologia e Laboratório de Estrutura (FT);Não houve dificuldades e a linguagem está clara.
+55;Estudante de Pós-Graduação;21 a 30 anos;;Cristalina;2;Automóvel;;;ICC Sul;ICC Sul;Restaurante Universitário (RU);ICC Sul;;;
+56;Estudante de Graduação;21 a 30 anos;Jardim Botânico;;4;Automóvel;;;FT (Marmitas);Faculdade de Tecnologia e Laboratório de Estrutura (FT);SG12;Faculdade de Tecnologia e Laboratório de Estrutura (FT);;;
+57;Estudante de Pós-Graduação;21 a 30 anos;Sudoeste/octogonal;;5;Ônibus;Frente do ICC sul;Posto de gasolina;;Faculdade de Tecnologia e Laboratório de Estrutura (FT);ICC Sul;Restaurante Universitário (RU);;;'Não houve dificuldade em concluir a pesquisa. Mas talvez um mapa com a localização ajudaria o respondente a identificar os locais mais facilmente, com maior referência. Além disso, uma padronização nos nomes do pontos, como um item está chamado ''ICC SUL'' e outro ''Frente ICC sul''.'
+58;Estudante de Graduação;21 a 30 anos;Plano Piloto;;6;A pé;;;;Restaurante Universitário (RU);Faculdade de Tecnologia e Laboratório de Estrutura (FT);ICC Sul;ICC Centro;;
+59;Estudante de Graduação;Até 20 anos;Águas Claras;;4;Automóvel;;;ICC Norte;ICC Norte;Restaurante Universitário (RU);ICC Norte;ICC Norte;ICC Norte;Tudo certo
+60;Estudante de Graduação;21 a 30 anos;Águas Claras;;5;Automóvel;;;FT (Marmitas);Faculdade de Tecnologia e Laboratório de Estrutura (FT);Faculdade de Tecnologia e Laboratório de Estrutura (FT);Faculdade de Tecnologia e Laboratório de Estrutura (FT);Faculdade de Tecnologia e Laboratório de Estrutura (FT);Faculdade de Tecnologia e Laboratório de Estrutura (FT);
+61;Estudante de Graduação;21 a 30 anos;Jardim Botânico;;5;Automóvel;;;FT (Próximo ao Lab. de Hidráulica);Faculdade de Tecnologia e Laboratório de Estrutura (FT);Laboratório de Estudos Geodinâmicos;Faculdade de Tecnologia e Laboratório de Estrutura (FT);;;
+62;Estudante de Graduação;Até 20 anos;Plano Piloto;;3;Bicicleta;;;;ICC Norte;ICC Centro;BSA SUL;;;
+63;Estudante de Pós-Graduação;41 a 49 anos;Itapoã;;1;Automóvel;;;ICC Sul;ICC Norte;HUB;ICC Centro;;;
+64;Estudante de Graduação;21 a 30 anos;Lago Norte;;5;Automóvel;;;ICC Norte;Faculdade de Tecnologia e Laboratório de Estrutura (FT);ICC Norte;Restaurante Universitário (RU);MASC Centro (Amarelinho);BCE;
+65;Estudante de Graduação;21 a 30 anos;;Luziânia;5;Ônibus;BSAS/FS;BSAS/FS;;BSA SUL;ICC Norte;ICC Sul;;;
+66;Estudante de Graduação;21 a 30 anos;Plano Piloto;;5;Automóvel;;;FT (Via L3);Faculdade de Tecnologia e Laboratório de Estrutura (FT);Faculdade de Tecnologia e Laboratório de Estrutura (FT);Restaurante Universitário (RU);;;
+67;Estudante de Graduação;21 a 30 anos;Brazlândia;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;ICC Norte;BSA NORTE;ICC Norte;BSA SUL;
+68;Estudante de Graduação;21 a 30 anos;Samambaia;;4;Ônibus;Frente do ICC norte;Frente do ICC sul;;PJC;ICC Norte;Faculdade de Educação;Faculdade de Ciências e Informação;MASC Norte (Amarelinho);
+69;Estudante de Pós-Graduação;21 a 30 anos;Plano Piloto;;3;Automóvel;;;PAT / PJC;CIC/EST;Faculdade de Tecnologia e Laboratório de Estrutura (FT);CIC/EST;;;
+70;Estudante de Graduação;21 a 30 anos;Águas Claras;;2;Ônibus;Frente do ICC sul;ICC SUL/FS;;ICC Sul;BSA SUL;Banco do Brasil / Café das Letras;CDT/CEFTRU;Faculdade de Educação;
+71;Estudante de Graduação;Até 20 anos;Plano Piloto;;4;Ônibus;Lateral ICC norte;Lateral ICC norte;;ICC Norte;CIC/EST;MASC Norte (Amarelinho);;;Pesquisa muito clara, sem deixar dúvidas na hora de responder
+72;Estudante de Graduação;21 a 30 anos;Plano Piloto;;2;Automóvel;;;ICC Norte;ICC Centro;PAT;ICC Sul;ICC Norte;Instituto de Biologia;ta top
+73;Estudante de Graduação;21 a 30 anos;Vicente Pires;;5;Automóvel;;;ICC Norte;ICC Norte;Restaurante Universitário (RU);Faculdade de Educação;;;Não tem opções de escolher os estacionamentos que mais frequento, sou pcd e estou sempre trocando de estacionamento quando preciso trocar de prédio
+74;Estudante de Graduação;21 a 30 anos;Riacho Fundo;;5;Ônibus;Multiuso 1;Multiuso 1;;ICC Sul;CO;Restaurante Universitário (RU);ICC Sul;ICC Norte;Nenhuma dificuldade. Linguagem clara e objetiva.
+75;Estudante de Graduação;31 a 39 anos;Santa Maria;;5;Ônibus;Lateral ICC sul;Lateral ICC sul;;ICC Sul;ICC Norte;PJC;BCE;PAT;
+76;Estudante de Graduação;Até 20 anos;Plano Piloto;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;ICC Sul;ICC Centro;PJC;CO;
+77;Estudante de Pós-Graduação;31 a 39 anos;Cruzeiro;;3;Automóvel;;;Lab. de Estudos Geodinâmicos e Ambientais;BSA SUL;Faculdade de Tecnologia e Laboratório de Estrutura (FT);BSA NORTE;ICC Centro;;
+78;Estudante de Graduação;21 a 30 anos;Riacho Fundo Ii;;3;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;ICC Centro;ICC Centro;;;
+80;Estudante de Graduação;21 a 30 anos;Ceilândia;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;ICC Sul;Restaurante Universitário (RU);BCE;;
+81;Estudante de Graduação;Até 20 anos;Plano Piloto;;5;Automóvel;;;ICC Sul;ICC Sul;ICC Centro;ICC Norte;;;
+82;Estudante de Graduação;Até 20 anos;Ceilândia;;2;Ônibus;Frente do ICC norte;Frente do ICC sul;;ICC Norte;PAT;ICC Norte;Restaurante Universitário (RU);BSA SUL;Nenhuma dificuldade. Linguagem clara.
+83;Estudante de Pós-Graduação;21 a 30 anos;Cruzeiro;;5;Ônibus;BSAS/FS;BSAS/FS;;Instituto de Biologia;ICC Centro;Restaurante Universitário (RU);;;
+84;Servidor;41 a 49 anos;Plano Piloto;;5;Automóvel;;;ICC Sul;ICC Centro;ICC Centro;Restaurante Universitário (RU);ICC Norte;CO;No meu caso, faço tudo a pé. porque é tudo perto. gostei da pesquisa.
+85;Estudante de Graduação;31 a 39 anos;Jardim Botânico;;2;Automóvel;;;BSA Sul;BSA SUL;ICC Sul;ICC Centro;;;Necessário mais luzes a noite o ICC SUL fica com as luzes apagada durante a noite
+86;Estudante de Graduação;21 a 30 anos;Gama;;5;Ônibus;Faculdade de tecnologia;Faculdade da saúde;;ICC Norte;Faculdade de Tecnologia e Laboratório de Estrutura (FT);ICC Norte;Restaurante Universitário (RU);ICC Centro;
+87;Estudante de Graduação;31 a 39 anos;Sobradinho;;5;Automóvel;;;IDA (Frente ao RU);SG1 ao SG4 (IDA / MUS);Restaurante Universitário (RU);BCE;ICC Sul;;Tudo ok
+88;Estudante de Graduação;Até 20 anos;Samambaia;;4;Ônibus;Frente do ICC norte;Frente do ICC norte;;BSA NORTE;PAT;ICC Norte;;;
+89;Estudante de Graduação;Até 20 anos;Recanto Das Emas;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;SG1 ao SG4 (IDA / MUS);ICC Sul;Restaurante Universitário (RU);PAT;PJC;
+90;Estudante de Graduação;Até 20 anos;;Valparaíso de Goiás;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);PJC;PJC;ICC Norte;BSA NORTE;
+91;Estudante de Graduação;21 a 30 anos;Ceilândia;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;SG1 ao SG4 (IDA / MUS);ICC Sul;Restaurante Universitário (RU);BCE;ICC Norte;
+92;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;Lateral ICC sul;FD/ASFUB;;Restaurante Universitário (RU);PJC;MASC Norte (Amarelinho);IPOL/REL;Restaurante Universitário (RU);
+93;Estudante de Graduação;Até 20 anos;Gama;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;ICC Norte;BSA SUL;ICC Sul;;
+94;Estudante de Graduação;21 a 30 anos;Riacho Fundo Ii;;5;Ônibus;Frente do IB;Frente do ICC sul;;BSA SUL;Faculdade de Medicina (FS);MASC Sul (Amarelinho);;;
+95;Estudante de Graduação;21 a 30 anos;Samambaia;;5;Ônibus;Frente do IB;Faculdade da saúde;;BSA SUL;Instituto de Biologia;ICC Sul;ICC Norte;Faculdade de Educação;
+96;Estudante de Graduação;21 a 30 anos;Planaltina;;4;Ônibus;Faculdade de educação;Frente do ICC sul;;ICC Norte;BCE;ICC Sul;;;
+97;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;Posto de gasolina;Frente do ICC norte;;FACE;PJC;BSA SUL;Restaurante Universitário (RU);;
+98;Estudante de Graduação;21 a 30 anos;Samambaia;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;SG1 ao SG4 (IDA / MUS);BCE;PJC;;'Pelo menos para mim, não apareceu uma lista vertical, e sim uma horizontal no teclado com as opções. Isso foi confuso no começo, pois eu não sabia quais eram as opções, e quão detalhista elas eram. Boa sorte!'
+99;Estudante de Graduação;21 a 30 anos;Itapoã;;5;Ônibus;IDA;IDA;;SG1 ao SG4 (IDA / MUS);Restaurante Universitário (RU);ICC Sul;BCE;Restaurante Universitário (RU);O layout é bem difícil de usar no celular
+100;Estudante de Graduação;Até 20 anos;Riacho Fundo;;4;Ônibus;Lateral ICC norte;Lateral ICC norte;;PJC;PAT;BSA NORTE;;;
+101;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;BSA SUL;ICC Sul;Faculdade de Educação;;;
+102;Estudante de Pós-Graduação;21 a 30 anos;Sudoeste/octogonal;;1;Automóvel;;;ICC Norte;ICC Norte;Restaurante Universitário (RU);PAT;;;
+103;Estudante de Pós-Graduação;31 a 39 anos;Sobradinho;;2;Automóvel;;;ICC Norte;ICC Norte;MASC Norte (Amarelinho);BCE;;;
+104;Professor;31 a 39 anos;Recanto Das Emas;;5;Ônibus;Faculdade de educação;Multiuso 1;;CET;BCE;ICC Norte;Restaurante Universitário (RU);ICC Sul;
+105;Estudante de Pós-Graduação;21 a 30 anos;Vicente Pires;;4;Automóvel;;;ICC Norte;ICC Norte;PAT;IPOL/REL;Restaurante Universitário (RU);Banco do Brasil / Café das Letras;Foi um pouco complicado responder os locais pelo celular, já que as alternativas estavam em um campo não muito convencional. Boa sorte no mestrado!
+106;Estudante de Graduação;Até 20 anos;Plano Piloto;;5;Carona;;;;SG1 ao SG4 (IDA / MUS);BCE;Restaurante Universitário (RU);SG1 ao SG4 (IDA / MUS);;Formato simples de entender, todas as perguntas foram claras
+107;Estudante de Pós-Graduação;31 a 39 anos;Plano Piloto;;2;Automóvel;;;ICC Norte;ICC Norte;MASC Norte (Amarelinho);ICC Norte;;;
+108;Estudante de Pós-Graduação;21 a 30 anos;;Formosa;3;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;ICC Centro;Banco do Brasil / Café das Letras;BCE;Colina de Professores/Alunos;
+109;Estudante de Graduação;21 a 30 anos;Jardim Botânico;;3;Ônibus;Frente do ICC sul;Pavilhões;;IPOL/REL;ICC Sul;Faculdade de Educação;PJC;ICC Norte;
+110;Estudante de Graduação;31 a 39 anos;Taguatinga;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);SG1 ao SG4 (IDA / MUS);BCE;ICC Sul;ICC Norte;
+111;Estudante de Pós-Graduação;21 a 30 anos;Arapoanga;;2;Ônibus;Lateral ICC norte;Frente do ICC norte;;ICC Norte;Restaurante Universitário (RU);MASC Norte (Amarelinho);ICC Centro;ICC Sul;
+112;Professor;41 a 49 anos;Sobradinho Ii;;5;Automóvel;;;ICC Norte;ICC Centro;Laboratório de Estudos Geodinâmicos;Reitoria;;;
+113;Estudante de Graduação;Até 20 anos;Núcleo Bandeirante;;5;Ônibus;Lateral ICC norte;Lateral ICC norte;;BSA NORTE;ICC Sul;Restaurante Universitário (RU);BSA NORTE;;
+114;Estudante de Graduação;Até 20 anos;Taguatinga;;5;Ônibus;Posto de gasolina;Posto de gasolina;;Faculdade de Direito - FD;ICC Sul;Restaurante Universitário (RU);ICC Norte;ICC Centro;
+115;Estudante de Graduação;21 a 30 anos;Plano Piloto;;7;A pé;;;;Restaurante Universitário (RU);ICC Norte;SG1 ao SG4 (IDA / MUS);BCE;Restaurante Universitário (RU);
+116;Estudante de Graduação;21 a 30 anos;Plano Piloto;;3;Ônibus;Lateral ICC norte;Frente do ICC sul;;ICC Norte;Restaurante Universitário (RU);SG1 ao SG4 (IDA / MUS);ICC Sul;;
+117;Estudante de Graduação;21 a 30 anos;Cruzeiro;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;ICC Centro;PAT;PJC;BSA NORTE;
+118;Estudante de Graduação;21 a 30 anos;Ceilândia;;2;Ônibus;Frente do ICC sul;Frente do ICC norte;;ICC Centro;BSA NORTE;Restaurante Universitário (RU);BCE;;
+119;Estudante de Graduação;21 a 30 anos;Águas Claras;;3;Carona;;;;ICC Centro;Faculdade de Tecnologia e Laboratório de Estrutura (FT);BSA SUL;ICC Norte;ICC Sul;
+121;Estudante de Graduação;21 a 30 anos;Riacho Fundo;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;BSA NORTE;BSA SUL;FACE;PAT;
+122;Estudante de Graduação;21 a 30 anos;Guará;;4;Ônibus;Lateral ICC norte;Frente do ICC norte;;PAT;PJC;FACE;;;
+123;Estudante de Graduação;21 a 30 anos;Ceilândia;;4;Automóvel;;;PAT / PJC;FACE;MASC Norte (Amarelinho);PAT;PJC;;
+124;Estudante de Graduação;Até 20 anos;São Sebastião;;6;Ônibus;Frente do ICC norte;Frente do ICC sul;;PAT;Restaurante Universitário (RU);ICC Sul;;;
+125;Estudante de Graduação;21 a 30 anos;Brazlândia;;5;Ônibus;Frente do ICC norte;Pavilhões;;Restaurante Universitário (RU);PAT;ICC Norte;Restaurante Universitário (RU);MASC Norte (Amarelinho);
+126;Estudante de Graduação;21 a 30 anos;Ceilândia;;3;Ônibus;Frente do ICC norte;Posto de gasolina;;ICC Norte;ICC Centro;FACE;PJC;;
+127;Estudante de Graduação;21 a 30 anos;Planaltina;;5;Ônibus;Frente do ICC norte;Lateral ICC norte;;FACE;ICC Norte;ICC Norte;Restaurante Universitário (RU);ICC Norte;
+128;Estudante de Graduação;Até 20 anos;Sobradinho;;4;Ônibus;Lateral ICC norte;Lateral ICC norte;;PAT;MASC Norte (Amarelinho);FACE;PJC;Restaurante Universitário (RU);
+129;Estudante de Graduação;21 a 30 anos;Santa Maria;;5;Ônibus;Pavilhões;Frente do ICC norte;;PAT;ICC Norte;BSA NORTE;PJC;Restaurante Universitário (RU);
+130;Estudante de Graduação;21 a 30 anos;Itapoã;;5;Ônibus;ICC SUL/FS;Pavilhões;;PAT;BSA NORTE;ICC Sul;MASC Norte (Amarelinho);FACE;
+131;Estudante de Graduação;Até 20 anos;;Novo Gama;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);ICC Sul;Restaurante Universitário (RU);Instituto de Biologia;Faculdade de Medicina (FS);
+132;Estudante de Graduação;21 a 30 anos;Brazlândia;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;BSA SUL;Restaurante Universitário (RU);BSA NORTE;PAT;
+133;Estudante de Graduação;21 a 30 anos;Cruzeiro;;5;Ônibus;Lateral ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);ICC Sul;ICC Centro;PAT;BCE;
+134;Estudante de Graduação;21 a 30 anos;Samambaia;;5;Ônibus;FD/ASFUB;Posto de gasolina;;PAT;FACE;BSA NORTE;Faculdade de Direito - FD;ICC Norte;
+135;Estudante de Pós-Graduação;51 a 59 anos;Sudoeste/octogonal;;4;Automóvel;;;Departamento de Engenharia Civil e Ambiental;SG12;Faculdade de Tecnologia e Laboratório de Estrutura (FT);BCE;FACE;Restaurante Universitário (RU);NA
+136;Estudante de Graduação;21 a 30 anos;Park Way;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;Restaurante Universitário (RU);BSA SUL;BSA NORTE;Instituto de Biologia;
+137;Estudante de Graduação;Até 20 anos;São Sebastião;;5;Ônibus;ICC SUL/FS;ICC SUL/FS;;ICC Sul;BSA SUL;ICC Sul;Restaurante Universitário (RU);;sim
+138;Estudante de Graduação;21 a 30 anos;Recanto Das Emas;;5;Ônibus;Frente do ICC sul;Faculdade de tecnologia;;ICC Sul;Instituto de Biologia;BSA SUL;PAT;Restaurante Universitário (RU);
+139;Estudante de Graduação;21 a 30 anos;Ceilândia;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Norte;Restaurante Universitário (RU);ICC Sul;;;
+140;Estudante de Graduação;21 a 30 anos;São Sebastião;;5;Ônibus;Lateral ICC norte;Frente do ICC norte;;PAT;FACE;PAT;;;
+141;Estudante de Graduação;21 a 30 anos;Santa Maria;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;BSA SUL;PAT;BCE;Restaurante Universitário (RU);
+142;Estudante de Graduação;21 a 30 anos;Plano Piloto;;3;Ônibus;SQN 406 (Lado oposto ao CEAN);SQN 606 CEAN;;ICC Norte;ICC Sul;ICC Centro;;;
+143;Estudante de Graduação;Até 20 anos;;Águas Lindas de Goiás;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;PAT;BSA NORTE;PAT;PAT;PAT;pontos de ônibus mais acessíveis
+144;Estudante de Graduação;21 a 30 anos;Recanto Das Emas;;3;Ônibus;Frente do ICC sul;Lateral ICC norte;;Restaurante Universitário (RU);PAT;ICC Norte;FACE;PJC;
+145;Estudante de Graduação;21 a 30 anos;Águas Claras;;3;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;ICC Norte;ICC Sul;;;
+146;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;Posto de gasolina;Posto de gasolina;;PAT;PAT;PAT;;;
+147;Estudante de Graduação;21 a 30 anos;Plano Piloto;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;Restaurante Universitário (RU);ICC Norte;ICC Centro;Instituto de Biologia;
+148;Estudante de Graduação;21 a 30 anos;Plano Piloto;;2;Automóvel;;;PAT / PJC;MASC Norte (Amarelinho);PAT;ICC Centro;FACE;ICC Norte;
+149;Estudante de Graduação;21 a 30 anos;Lago Sul;;2;Ônibus;Pavilhões;Pavilhões;;FACE;PAT;ICC Norte;ICC Sul;Restaurante Universitário (RU);
+150;Estudante de Graduação;Até 20 anos;Planaltina;;5;Ônibus;SQN 406 (Lado oposto ao CEAN);Pavilhões;;Restaurante Universitário (RU);PAT;ICC Sul;;;
+151;Estudante de Graduação;Até 20 anos;Plano Piloto;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;PAT;Faculdade de Educação;;;
+152;Estudante de Graduação;31 a 39 anos;Ceilândia;;2;Ônibus;Pavilhões;Posto de gasolina;;PAT;Restaurante Universitário (RU);BSA NORTE;ICC Norte;FACE;
+153;Estudante de Graduação;21 a 30 anos;São Sebastião;;5;Ônibus;Frente do ICC sul;Posto de gasolina;;Restaurante Universitário (RU);ICC Sul;ICC Norte;;;
+154;Estudante de Graduação;21 a 30 anos;Lago Norte;;2;Automóvel;;;ICC Norte;ICC Norte;BCE;ICC Sul;;;
+155;Estudante de Graduação;21 a 30 anos;Planaltina;;5;Ônibus;Pavilhões;Pavilhões;;PAT;MASC Norte (Amarelinho);BSA NORTE;PJC;ICC Norte;
+156;Estudante de Graduação;31 a 39 anos;Sobradinho Ii;;3;Ônibus;Lateral ICC norte;Lateral ICC norte;;PAT;PJC;FACE;Restaurante Universitário (RU);;Está clara. Nenhuma dificuldade.
+157;Estudante de Graduação;21 a 30 anos;Ceilândia;;3;Ônibus;Frente do ICC norte;Pavilhões;;ICC Norte;PAT;ICC Norte;PAT;PAT;
+158;Estudante de Graduação;Até 20 anos;Ceilândia;;5;Ônibus;BSAS/FS;Pavilhões;;BSA SUL;PJC;BCE;ICC Sul;Instituto de Biologia;
+159;Estudante de Graduação;21 a 30 anos;Guará;;5;Automóvel;;;PAT / PJC;PAT;PJC;FACE;BSA SUL;ICC Centro;Em termos de trânsito, o lugar mais “mal feito” seria a rua/via onde passam os ônibus (em cima do ICC e RU). Os ônibus atrapalham tudo, eles ficam parados no meio da rua por muito tempo, são dezenas e dezenas de estudantes entrando, enquanto isso, o ônibus ocupada a única faixa da pista. Isto gera um trânsito e, volta e meia, alguns motoristas (idiotas) fazendo loucuras. Quase bateram no meu carro algumas vezes porque eles não querem esperar, querem ir na contramão, subir no meio-fio, enfim… Uma droga. Eu evito o máximo possível passar por ali, muito mal feito.
+160;Estudante de Graduação;21 a 30 anos;Sudoeste/octogonal;;4;Ônibus;BSAS/FS;Frente do ICC sul;;ICC Sul;PAT;MASC Norte (Amarelinho);;;
+161;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Frente do ICC norte;FD/ASFUB;;Restaurante Universitário (RU);ICC Norte;Restaurante Universitário (RU);ICC Norte;SG1 ao SG4 (IDA / MUS);nos locais que costumamos ir faltou o teatro de arena (ou não achei)
+162;Estudante de Graduação;41 a 49 anos;Plano Piloto;;3;Automóvel;;;PAT / PJC;PAT;PJC;ICC Norte;Colina de Professores/Alunos;Reitoria;
+163;Estudante de Graduação;Até 20 anos;Riacho Fundo Ii;;5;Ônibus;FD/ASFUB;Pavilhões;;Restaurante Universitário (RU);Faculdade de Direito - FD;PAT;PJC;BSA NORTE;tanto ir quanto voltar do BSANORTE, e muito perigoso principalmente a noite  pois e muito vazio e afastado meu colega de turma já teve sua bicicleta furtada 2 vezes.
+164;Estudante de Graduação;Até 20 anos;;Luziânia;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;Faculdade de Tecnologia e Laboratório de Estrutura (FT);Faculdade de Medicina (FS);ICC Norte;Banco do Brasil / Café das Letras;Não, sim
+165;Estudante de Graduação;21 a 30 anos;Taguatinga;;6;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;BSA SUL;ICC Sul;ICC Sul;ICC Sul;
+166;Estudante de Graduação;21 a 30 anos;Ceilândia;;4;Ônibus;Frente do ICC sul;Pavilhões;;ICC Sul;PAT;FACE;PJC;MASC Norte (Amarelinho);
+167;Estudante de Graduação;Até 20 anos;Guará;;5;Ônibus;CESPE;CESPE;;ICC Sul;Instituto de Química;PRC;Instituto de Biologia;Restaurante Universitário (RU);
+168;Estudante de Graduação;Até 20 anos;Taguatinga;;5;Ônibus;Pavilhões;Pavilhões;;PAT;MASC Norte (Amarelinho);FACE;ICC Norte;MASC Sul (Amarelinho);
+169;Estudante de Graduação;21 a 30 anos;São Sebastião;;3;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;Restaurante Universitário (RU);BCE;;;
+170;Estudante de Graduação;21 a 30 anos;Guará;;2;Carona;;;;PAT;FACE;ICC Norte;PJC;MASC Norte (Amarelinho);
+171;Estudante de Graduação;21 a 30 anos;São Sebastião;;5;Ônibus;Frente do ICC norte;Posto de gasolina;;Restaurante Universitário (RU);MASC Centro (Amarelinho);ICC Norte;PAT;FACE;
+172;Estudante de Graduação;21 a 30 anos;Itapoã;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;PRC;BAES;Restaurante Universitário (RU);ICC Sul;BSA NORTE;
+173;Estudante de Graduação;21 a 30 anos;Itapoã;;5;Ônibus;Frente do ICC sul;BSAS/FS;;ICC Centro;BSA SUL;Instituto de Biologia;Restaurante Universitário (RU);BCE;
+174;Estudante de Graduação;21 a 30 anos;Guará;;5;Ônibus;Frente do ICC sul;Não existe;;ICC Norte;ICC Sul;Banco do Brasil / Café das Letras;BCE;Restaurante Universitário (RU);Pesquisa clara e rápida! Parabéns e boa pesquisa!
+175;Estudante de Graduação;Até 20 anos;Guará;;6;Ônibus;Pavilhões;Posto de gasolina;;FACE;MASC Norte (Amarelinho);PAT;;;
+176;Estudante de Graduação;21 a 30 anos;Plano Piloto;;5;Ônibus;Pavilhões;Pavilhões;;PAT;PAT;FACE;PAT;PAT;
+177;Estudante de Graduação;Até 20 anos;Ceilândia;;6;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);ICC Centro;BSA SUL;ICC Centro;;
+178;Estudante de Graduação;21 a 30 anos;Jardim Botânico;;2;Automóvel;;;ICC Norte;ICC Norte;Restaurante Universitário (RU);CEU;;;
+179;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;Pavilhões;Pavilhões;;PAT;ICC Centro;ICC Sul;BCE;Restaurante Universitário (RU);
+180;Estudante de Graduação;21 a 30 anos;Santa Maria;;5;Ônibus;Faculdade da saúde;Faculdade da saúde;;BSA SUL;ICC Sul;BCE;ICC Norte;PAT;Aumentar as linhas para a Fazenda Agua Limpa ajudaria muito.
+181;Estudante de Graduação;21 a 30 anos;Park Way;;5;Automóvel;;;ICC Norte;ICC Norte;Restaurante Universitário (RU);BCE;;;
+182;Estudante de Graduação;21 a 30 anos;Taguatinga;;2;Ônibus;Frente do ICC norte;Frente do ICC sul;;ICC Norte;Restaurante Universitário (RU);BCE;;;
+183;Estudante de Graduação;21 a 30 anos;Plano Piloto;;4;Bicicleta;;;;ICC Sul;BSA SUL;Instituto de Biologia;;;frequento a prefeitura
+184;Estudante de Pós-Graduação;21 a 30 anos;Sol Nascente E Por Do Sol;;6;Ônibus;Frente do ICC sul;Frente do ICC norte;;ICC Norte;BCE;CO;ICC Sul;Banco do Brasil / Café das Letras;
+185;Estudante de Graduação;21 a 30 anos;São Sebastião;;5;Ônibus;Frente do ICC sul;Frente do ICC norte;;ICC Centro;BSA SUL;BSA NORTE;Instituto de Química;Restaurante Universitário (RU);
+186;Estudante de Graduação;Até 20 anos;Jardim Botânico;;5;Automóvel;;;ICC Sul;ICC Norte;PAT;Restaurante Universitário (RU);ICC Sul;;
+187;Estudante de Graduação;Até 20 anos;;Planaltina (GO);5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;BSA SUL;BSA NORTE;Faculdade de Tecnologia e Laboratório de Estrutura (FT);BCE;
+188;Estudante de Graduação;21 a 30 anos;Planaltina;;5;Ônibus;Frente do ICC sul;Frente do ICC norte;;Restaurante Universitário (RU);PAT;BSA NORTE;FACE;ICC Norte;
+189;Estudante de Graduação;21 a 30 anos;Plano Piloto;;5;Ônibus;Posto de gasolina;Posto de gasolina;;PAT;PJC;ICC Norte;BCE;BSA NORTE;
+190;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Automóvel;;;ICC Sul;ICC Sul;BSA NORTE;BSA SUL;ICC Norte;PAT;
+191;Estudante de Graduação;21 a 30 anos;Planaltina;;4;Ônibus;Frente do ICC sul;Pavilhões;;Restaurante Universitário (RU);ICC Sul;PAT;;;
+192;Estudante de Graduação;21 a 30 anos;Sobradinho;;2;Automóvel;;;PAT / PJC;PJC;FACE;BSA NORTE;PAT;ICC Norte;
+193;Estudante de Graduação;21 a 30 anos;;Valparaíso de Goiás;3;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;ICC Centro;Restaurante Universitário (RU);ICC Centro;ICC Centro;
+194;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Frente do IB;Frente do ICC sul;;ICC Sul;Restaurante Universitário (RU);ICC Centro;;;
+195;Estudante de Graduação;Até 20 anos;Plano Piloto;;5;Automóvel;;;FACE;BSA NORTE;FACE;ICC Norte;;;Houve dificuldade. Na primeira pergunta não tem a opção BSA (Norte)
+196;Estudante de Graduação;21 a 30 anos;Sobradinho;;4;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;Restaurante Universitário (RU);ICC Sul;BSA NORTE;Faculdade de Tecnologia e Laboratório de Estrutura (FT);
+197;Estudante de Graduação;Até 20 anos;São Sebastião;;5;Ônibus;Frente do ICC norte;Pavilhões;;BSA NORTE;PAT;MASC Norte (Amarelinho);BCE;ICC Norte;
+198;Estudante de Graduação;21 a 30 anos;Sobradinho Ii;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;BSA SUL;BCE;Instituto de Biologia;Instituto de Química;
+199;Estudante de Graduação;21 a 30 anos;Guará;;3;Ônibus;Frente do ICC norte;Lateral ICC norte;;ICC Norte;PJC;PAT;SG1 ao SG4 (IDA / MUS);Restaurante Universitário (RU);
+200;Estudante de Graduação;21 a 30 anos;Gama;;1;Ônibus;Frente do ICC norte;Frente do ICC sul;;ICC Norte;Restaurante Universitário (RU);Restaurante Universitário (RU);;;
+201;Estudante de Graduação;60 anos ou mais;Park Way;;5;Automóvel;;;ICC Sul;Instituto de Química;BSA SUL;ICC Sul;ICC Sul;BSA SUL;'Não. Sim.'
+202;Estudante de Graduação;Até 20 anos;Taguatinga;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;MASC Sul (Amarelinho);FACE;FACE;BCE;
+203;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Lateral ICC sul;Lateral ICC norte;;ICC Sul;ICC Centro;Restaurante Universitário (RU);PAT;ICC Norte;
+204;Estudante de Graduação;21 a 30 anos;Santa Maria;;3;Ônibus;Frente do ICC norte;Frente do ICC norte;;BSA NORTE;ICC Norte;FACE;BCE;ICC Centro;Iniciativa muito boa, importante contribuição para comunidade acadêmica, parabéns.
+205;Estudante de Graduação;Até 20 anos;Plano Piloto;;4;Carona;;;;PAT;BSA NORTE;FACE;ICC Norte;ICC Sul;Pesquisa simples de responder e sem nenhum viés aparente. Linguagem direta e objetiva. Curta e rápida de responder. Jóia.
+206;Estudante de Graduação;21 a 30 anos;Vicente Pires;;4;Automóvel;;;ICC Sul;ICC Sul;Restaurante Universitário (RU);ICC Centro;PJC;PAT;
+207;Estudante de Graduação;21 a 30 anos;Paranoá;;5;Ônibus;SQN 405 (Lado oposto ao HUB);Frente do ICC sul;;Restaurante Universitário (RU);ICC Sul;BCE;;;
+208;Estudante de Graduação;21 a 30 anos;Arniqueira;;3;Ônibus;Frente do ICC sul;Frente do ICC norte;;Restaurante Universitário (RU);ICC Norte;BCE;ICC Sul;ICC Centro;
+209;Estudante de Graduação;21 a 30 anos;Gama;;3;Ônibus;Faculdade de tecnologia;Frente do ICC sul;;ICC Norte;Restaurante Universitário (RU);ICC Sul;Banco do Brasil / Café das Letras;;
+210;Estudante de Graduação;Até 20 anos;Águas Claras;;5;Automóvel;;;FACE;PAT;FACE;PAT;;;
+211;Estudante de Graduação;21 a 30 anos;São Sebastião;;5;Ônibus;Lateral ICC sul;Lateral ICC norte;;Restaurante Universitário (RU);ICC Norte;PAT;PJC;;
+212;Estudante de Graduação;31 a 39 anos;Samambaia;;1;Automóvel;;;ICC Norte;ICC Norte;ICC Norte;ICC Norte;;;
+213;Estudante de Graduação;21 a 30 anos;Vicente Pires;;4;Ônibus;Lateral ICC norte;Lateral ICC norte;;FACE;PAT;MASC Norte (Amarelinho);;;
+214;Estudante de Graduação;21 a 30 anos;Taguatinga;;3;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);ICC Norte;ICC Sul;ICC Norte;Restaurante Universitário (RU);
+215;Estudante de Graduação;21 a 30 anos;Sudoeste/octogonal;;1;Carona;;;;PAT;FACE;PJC;FACE;;
+216;Estudante de Pós-Graduação;21 a 30 anos;Plano Piloto;;4;Automóvel;;;FACE;BCE;Restaurante Universitário (RU);ICC Sul;FACE;;
+217;Estudante de Graduação;21 a 30 anos;Gama;;3;Automóvel;;;ICC Norte;Restaurante Universitário (RU);ICC Norte;Restaurante Universitário (RU);ICC Norte;;
+218;Estudante de Graduação;21 a 30 anos;Santa Maria;;5;Ônibus;Frente do ICC sul;Pavilhões;;Restaurante Universitário (RU);PAT;FACE;PJC;BCE;
+219;Estudante de Graduação;51 a 59 anos;Núcleo Bandeirante;;4;Ônibus;Frente do ICC norte;Pavilhões;;BAES;BSA SUL;Centro Comunitário;CIC/EST;FACE;Acho importante que haja micro-ônibus dentro do campus.
+220;Estudante de Graduação;31 a 39 anos;Ceilândia;;1;Ônibus;Frente do ICC norte;Frente do ICC sul;;Restaurante Universitário (RU);ICC Norte;MASC Norte (Amarelinho);Reitoria;BAES;
+221;Estudante de Graduação;21 a 30 anos;Sobradinho Ii;;2;Ônibus;Frente do ICC norte;Faculdade de educação;;ICC Norte;Restaurante Universitário (RU);SG1 ao SG4 (IDA / MUS);BCE;ICC Sul;
+222;Estudante de Graduação;21 a 30 anos;Plano Piloto;;4;Automóvel;;;ICC Sul;ICC Sul;Restaurante Universitário (RU);ICC Sul;;;
+223;Estudante de Graduação;21 a 30 anos;Lago Norte;;2;Automóvel;;;FACE;FACE;FACE;FACE;;;
+224;Estudante de Graduação;21 a 30 anos;Gama;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;ICC Centro;ICC Sul;;;
+225;Estudante de Graduação;21 a 30 anos;Plano Piloto;;7;Bicicleta;;;;Restaurante Universitário (RU);ICC Centro;Restaurante Universitário (RU);ICC Centro;BSA SUL;
+226;Estudante de Pós-Graduação;21 a 30 anos;Ceilândia;;1;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;Restaurante Universitário (RU);ICC Centro;;;Não. Foi fácil e intuitivo.
+227;Estudante de Graduação;21 a 30 anos;Riacho Fundo Ii;;3;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;Restaurante Universitário (RU);BSA SUL;PAT;BSA NORTE;
+228;Estudante de Graduação;31 a 39 anos;Brazlândia;;5;Ônibus;Frente do ICC norte;Frente do ICC norte;;Restaurante Universitário (RU);BSA SUL;ICC Norte;PAT;BSA SUL;
+229;Estudante de Graduação;Até 20 anos;Sobradinho;;2;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;PAT;Restaurante Universitário (RU);ICC Norte;BSA NORTE;
+230;Estudante de Graduação;Até 20 anos;Recanto Das Emas;;4;Ônibus;FD/ASFUB;FD/ASFUB;;PAT;ICC Norte;ICC Sul;Restaurante Universitário (RU);Reitoria;
+231;Estudante de Graduação;21 a 30 anos;Guará;;4;Ônibus;Pavilhões;Engenharia florestal;;CO;ICC Norte;PJC;ICC Norte;Restaurante Universitário (RU);
+232;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Lateral ICC norte;Posto de gasolina;;PAT;BSA NORTE;ICC Norte;ICC Centro;ICC Sul;
+233;Estudante de Graduação;21 a 30 anos;Águas Claras;;3;Ônibus;Frente do ICC sul;Frente do ICC sul;;Faculdade de Educação;Restaurante Universitário (RU);ICC Sul;;;
+234;Estudante de Graduação;21 a 30 anos;Santa Maria;;1;Ônibus;Frente do ICC norte;Frente do ICC sul;;ICC Norte;BCE;ICC Sul;ICC Centro;Restaurante Universitário (RU);
+235;Estudante de Graduação;21 a 30 anos;Ceilândia;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;BSA SUL;Faculdade de Educação Física;;;
+236;Estudante de Graduação;Até 20 anos;;Águas Lindas de Goiás;5;Ônibus;Frente do ICC norte;Frente do ICC norte;;Restaurante Universitário (RU);BCE;CEU;;;
+237;Estudante de Graduação;21 a 30 anos;Riacho Fundo Ii;;4;Ônibus;Frente do ICC norte;Lateral ICC norte;;ICC Norte;PAT;Restaurante Universitário (RU);ICC Sul;CO;
+238;Estudante de Graduação;21 a 30 anos;Paranoá;;5;Ônibus;Pavilhões;Frente do ICC norte;;ICC Norte;PAT;Restaurante Universitário (RU);ICC Norte;;
+239;Estudante de Graduação;21 a 30 anos;Cruzeiro;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;ICC Norte;Restaurante Universitário (RU);BSA SUL;PAT;Difuldade em entender as opções.
+240;Estudante de Graduação;Até 20 anos;Cruzeiro;;5;Ônibus;Frente do ICC norte;Frente do ICC sul;;ICC Norte;Restaurante Universitário (RU);PMUI/OCAII;Banco do Brasil / Café das Letras;Faculdade de Direito - FD;
+241;Estudante de Graduação;21 a 30 anos;;Valparaíso de Goiás;5;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;ICC Norte;PAT;;;não tive nenhum problema em responder a pesquisa
+242;Estudante de Graduação;21 a 30 anos;Taguatinga;;2;Ônibus;Pavilhões;Lateral ICC norte;;ICC Norte;PAT;ICC Norte;;;
+243;Estudante de Pós-Graduação;Até 20 anos;Plano Piloto;;5;Ônibus;Faculdade de educação;Frente do ICC sul;;Faculdade de Educação;BCE;BCE;;;
+244;Estudante de Graduação;Até 20 anos;Taguatinga;;4;Ônibus;Faculdade de educação;Faculdade de educação;;Faculdade de Educação;Faculdade de Educação;Faculdade de Educação;;;
+245;Estudante de Graduação;21 a 30 anos;Scia;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;Faculdade de Educação;Restaurante Universitário (RU);ICC Norte;BSA NORTE;ICC Sul;
+246;Estudante de Graduação;21 a 30 anos;Plano Piloto;;2;Automóvel;;;ICC Norte;ICC Norte;PAT;Restaurante Universitário (RU);ICC Norte;ICC Norte;
+247;Estudante de Graduação;21 a 30 anos;Guará;;4;Ônibus;Pavilhões;Pavilhões;;PJC;Restaurante Universitário (RU);ICC Norte;ICC Centro;PJC;
+248;Estudante de Graduação;Até 20 anos;Sobradinho;;5;Ônibus;Lateral ICC norte;Faculdade de educação;;ICC Norte;Faculdade de Educação;ICC Sul;;;
+249;Estudante de Graduação;21 a 30 anos;Ceilândia;;5;Ônibus;Frente do ICC norte;Posto de gasolina;;PAT;BSA NORTE;ICC Norte;FACE;Restaurante Universitário (RU);
+250;Estudante de Graduação;21 a 30 anos;Taguatinga;;2;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);SG12;BCE;ICC Norte;Faculdade de Tecnologia e Laboratório de Estrutura (FT);Quando fui selecionar o segundo local mais visitado por mim, não encontrei a opção correspondente ao local que seria SG11, então selecionei o mais próximo que era o SG12.
+251;Estudante de Graduação;Até 20 anos;Jardim Botânico;;5;Ônibus;Educação física;Educação física;;CO;Faculdade de Educação Física;Restaurante Universitário (RU);BCE;ICC Centro;Está clara
+252;Estudante de Graduação;21 a 30 anos;Sudoeste/octogonal;;6;Automóvel;;;FT (Marmitas);Faculdade de Tecnologia e Laboratório de Estrutura (FT);PAT;PJC;ICC Sul;;
+253;Estudante de Graduação;21 a 30 anos;Brazlândia;;5;Ônibus;Posto de gasolina;Frente do ICC norte;;Faculdade de Direito - FD;BSA NORTE;ICC Norte;Faculdade de Direito - FD;Faculdade de Direito - FD;
+254;Estudante de Graduação;Até 20 anos;Taguatinga;;3;Ônibus;Frente do ICC norte;Frente do ICC norte;;BSA NORTE;ICC Norte;ICC Sul;;;
+255;Estudante de Graduação;21 a 30 anos;;Cidade Ocidental;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Norte;ICC Sul;Restaurante Universitário (RU);PJC;PAT;Acho que a explicação inicial sobre o porquê da pesquisa poderia ser mais clara, ainda está muito técnica para alguém que não conhece os termos ou a área de pesquisa. Essa parte inicial precisa ser mais atrativa pra quem vai responder. Além disso, achei grande o número de perguntas sobre o local que se direciona em um dia típico, é difícil imaginar 3 locais, imagina 5. Acho que isso pode desestimular a pessoa a responder, precisa de um certo tempo pra pensar e as vezes a pessoa pode responder qualquer coisa só pra tentar preencher logo. Fora isso, boa sorte com a pesquisa e muita fé nessa caminhada.
+256;Estudante de Graduação;21 a 30 anos;Vicente Pires;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;BSA SUL;Instituto de Biologia;ICC Sul;;;
+257;Estudante de Graduação;21 a 30 anos;São Sebastião;;5;Ônibus;Posto de gasolina;Frente do ICC sul;;PAT;Restaurante Universitário (RU);FACE;ICC Norte;Faculdade de Direito - FD;
+258;Estudante de Graduação;21 a 30 anos;Gama;;4;Ônibus;FD/ASFUB;Frente do ICC norte;;Faculdade de Direito - FD;Restaurante Universitário (RU);BSA NORTE;MASC Norte (Amarelinho);;
+259;Estudante de Graduação;21 a 30 anos;Águas Claras;;5;Ônibus;Lateral ICC norte;Lateral ICC norte;;ICC Norte;Restaurante Universitário (RU);SG1 ao SG4 (IDA / MUS);;;
+260;Estudante de Graduação;21 a 30 anos;Brazlândia;;5;Ônibus;Pavilhões;Pavilhões;;SG1 ao SG4 (IDA / MUS);PJC;BSA NORTE;;;
+261;Estudante de Graduação;Até 20 anos;Riacho Fundo Ii;;5;Ônibus;Posto de gasolina;ICC SUL/FS;;PAT;ICS;Restaurante Universitário (RU);FACE;PJC;
+262;Estudante de Graduação;Até 20 anos;Plano Piloto;;5;Bicicleta;;;;ICC Norte;PAT;ICC Sul;;;
+263;Estudante de Graduação;Até 20 anos;Lago Norte;;4;Automóvel;;;ICC Norte;PJC;ICC Norte;ICC Sul;;;está ótimo
+264;Estudante de Graduação;Até 20 anos;Plano Piloto;;4;Ônibus;Pavilhões;Pavilhões;;PJC;MASC Norte (Amarelinho);ICC Norte;Restaurante Universitário (RU);PJC;
+265;Estudante de Graduação;Até 20 anos;Ceilândia;;4;Ônibus;BCE;BCE;;Faculdade de Ciências e Informação;BCE;ICC Norte;Restaurante Universitário (RU);Banco do Brasil / Café das Letras;
+266;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;Frente do ICC sul;Pavilhões;;ICC Sul;BSA SUL;Restaurante Universitário (RU);BSA NORTE;PAT;
+267;Estudante de Graduação;Até 20 anos;Lago Norte;;3;Ônibus;SQN 406 (Lado oposto ao CEAN);SQN 404 (Lado oposto ao Colégio Madre Carmen Sales);;Faculdade de Tecnologia e Laboratório de Estrutura (FT);ICC Norte;Faculdade de Tecnologia e Laboratório de Estrutura (FT);;;
+268;Estudante de Graduação;Até 20 anos;;Valparaíso de Goiás;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);PJC;ICC Norte;Restaurante Universitário (RU);ICC Sul;
+269;Estudante de Pós-Graduação;21 a 30 anos;Varjão;;1;Ônibus;Frente do IB;Frente do IB;;Instituto de Biologia;BSA SUL;ICC Sul;Restaurante Universitário (RU);Banco do Brasil / Café das Letras;
+270;Estudante de Graduação;21 a 30 anos;Scia;;4;Automóvel;;;PAT / PJC;ICC Sul;PAT;BCE;;;
+271;Estudante de Graduação;Até 20 anos;Taguatinga;;4;Ônibus;Frente do ICC norte;Frente do ICC norte;;PAT;BSA NORTE;ICC Norte;Restaurante Universitário (RU);;Não houve dificuldade
+272;Estudante de Graduação;Até 20 anos;Núcleo Bandeirante;;4;Ônibus;Lateral ICC norte;Lateral ICC norte;;PJC;Restaurante Universitário (RU);ICC Norte;BCE;MASC Norte (Amarelinho);
+273;Estudante de Graduação;Até 20 anos;Núcleo Bandeirante;;4;Ônibus;FD/ASFUB;Lateral ICC norte;;ICC Norte;Faculdade de Direito - FD;BSA NORTE;ICC Sul;IPOL/REL;
+274;Estudante de Graduação;Até 20 anos;Sudoeste/octogonal;;4;Automóvel;;;ICC Norte;Restaurante Universitário (RU);ICC Norte;BSA NORTE;;;
+275;Estudante de Pós-Graduação;21 a 30 anos;Guará;;2;Ônibus;Frente do ICC sul;Lateral ICC norte;;Restaurante Universitário (RU);ICC Norte;ICS;Restaurante Universitário (RU);ICS;Icc lateral e frente tá pouco claro
+276;Estudante de Graduação;21 a 30 anos;Plano Piloto;;4;A pé;;;;PJC;ICC Norte;PJC;;;
+277;Estudante de Graduação;21 a 30 anos;Santa Maria;;3;Ônibus;SQN 406 (Lado oposto ao CEAN);Frente do ICC sul;;Faculdade de Educação;ICC Sul;Faculdade de Educação;;;
+278;Estudante de Pós-Graduação;31 a 39 anos;Arniqueira;;1;Automóvel;;;FEF;Faculdade de Educação Física;BCE;Restaurante Universitário (RU);;;Sem dificuldade.
+279;Estudante de Graduação;Até 20 anos;;Novo Gama;5;Ônibus;Frente do ICC sul;BSAS/FS;;BCE;ICC Sul;BSA SUL;;;Não tive dificuldade,super prático...fiz até em pé no ônibus rsrs. A linguagem está bem clara.
+280;Estudante de Graduação;Até 20 anos;Itapoã;;4;Ônibus;Posto de gasolina;Pavilhões;;Restaurante Universitário (RU);FACE;BSA NORTE;;;
+281;Estudante de Graduação;Até 20 anos;Arniqueira;;5;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;PJC;ICC Norte;PJC;ICC Norte;
+282;Estudante de Graduação;Até 20 anos;Gama;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);PAT;BCE;Restaurante Universitário (RU);;
+283;Estudante de Graduação;Até 20 anos;Paranoá;;4;Ônibus;Pavilhões;Pavilhões;;PJC;Restaurante Universitário (RU);BSA SUL;BCE;;
+284;Estudante de Graduação;21 a 30 anos;Paranoá;;4;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Sul;BSA NORTE;BCE;Restaurante Universitário (RU);;
+285;Estudante de Graduação;21 a 30 anos;Águas Claras;;5;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;Faculdade de Tecnologia e Laboratório de Estrutura (FT);Restaurante Universitário (RU);Faculdade de Direito - FD;ICC Norte;
+286;Estudante de Graduação;21 a 30 anos;Itapoã;;3;Ônibus;Frente do ICC sul;Frente do ICC sul;;ICC Centro;Faculdade de Educação;PAT;PJC;ICS;
+287;Estudante de Graduação;21 a 30 anos;Santa Maria;;5;Ônibus;Faculdade da saúde;Faculdade da saúde;;Instituto de Biologia;BSA SUL;Restaurante Universitário (RU);ICC Sul;BCE;
+288;Estudante de Graduação;21 a 30 anos;Sobradinho;;5;Ônibus;Frente do ICC sul;Faculdade de educação;;Instituto de Biologia;BSA SUL;Restaurante Universitário (RU);ICC Sul;;
+289;Estudante de Graduação;Até 20 anos;Guará;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);BSA SUL;BCE;ICC Sul;ICC Norte;
+290;Estudante de Graduação;21 a 30 anos;Plano Piloto;;2;Automóvel;;;BSA Sul;BSA SUL;CDT / INFRA;CDT/CEFTRU;;;
+291;Estudante de Pós-Graduação;21 a 30 anos;Plano Piloto;;5;Automóvel;;;Biblioteca (BCE);BCE;Restaurante Universitário (RU);ICC Norte;;;
+292;Servidor;41 a 49 anos;Plano Piloto;;5;Automóvel;;;CESPE;CDT / INFRA;ICC Norte;Banco do Brasil / Café das Letras;;;
+293;Estudante de Graduação;Até 20 anos;Ceilândia;;4;Ônibus;Frente do ICC sul;Posto de gasolina;;Restaurante Universitário (RU);ICC Sul;Faculdade de Direito - FD;ICC Norte;BSA NORTE;
+294;Servidor;31 a 39 anos;Guará;;5;Automóvel;;;Almoxarifado;BAES;Reitoria;ICC Centro;ICC Sul;BCE;Faltou estacionamento do BAES nas opções e por isso escolhi o almoxarifado pq é o mais próximo.
+295;Estudante de Pós-Graduação;21 a 30 anos;Gama;;4;Ônibus;Faculdade de tecnologia;Frente do ICC sul;;Faculdade de Tecnologia e Laboratório de Estrutura (FT);ICC Sul;BSA SUL;ICC Norte;;
+296;Servidor;31 a 39 anos;Plano Piloto;;5;Ônibus;Faculdade da saúde;Faculdade da saúde;;Faculdade de Medicina (FS);Restaurante Universitário (RU);BSA SUL;HUB;Reitoria;
+297;Estudante de Graduação;21 a 30 anos;Ceilândia;;2;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;PAT;Restaurante Universitário (RU);ICC Norte;ICC Sul;
+298;Estudante de Graduação;21 a 30 anos;Ceilândia;;5;Ônibus;BSAS/FS;Lateral ICC norte;;BSA SUL;ICC Sul;ICC Norte;Restaurante Universitário (RU);BCE;
+299;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;IDA;IDA;;SG1 ao SG4 (IDA / MUS);Restaurante Universitário (RU);ICC Sul;;;Não achei o prédio Multiuso como opção
+300;Estudante de Graduação;Até 20 anos;Guará;;4;Ônibus;BSAS/FS;BSAS/FS;;BSA SUL;Restaurante Universitário (RU);Instituto de Biologia;ICC Sul;;
+301;Estudante de Graduação;21 a 30 anos;Taguatinga;;5;Ônibus;Frente do ICC norte;Engenharia florestal;;Faculdade de Tecnologia e Laboratório de Estrutura (FT);Instituto de Biologia;ICC Centro;Restaurante Universitário (RU);BSA SUL;Faltou ceam, mas tá lindo. Boa sorte aí na sua jornada… tudo nosso nada deles
+302;Estudante de Pós-Graduação;21 a 30 anos;Samambaia;;1;Ônibus;Frente do ICC norte;Frente do ICC norte;;ICC Norte;Restaurante Universitário (RU);Banco do Brasil / Café das Letras;BCE;ICC Norte;
+303;Estudante de Graduação;21 a 30 anos;Sobradinho;;5;Ônibus;Frente do ICC norte;Frente do ICC sul;;Restaurante Universitário (RU);ICC Norte;Faculdade de Tecnologia e Laboratório de Estrutura (FT);Restaurante Universitário (RU);BCE;
+304;Estudante de Graduação;21 a 30 anos;Taguatinga;;4;Ônibus;ICC SUL/FS;ICC SUL/FS;;Faculdade de Medicina (FS);BSA SUL;Restaurante Universitário (RU);Instituto de Biologia;;
+305;Estudante de Graduação;21 a 30 anos;Cruzeiro;;5;Ônibus;Faculdade da saúde;Frente do IB;;Instituto de Biologia;ICC Sul;Restaurante Universitário (RU);BSA SUL;ICC Centro;
+306;Estudante de Pós-Graduação;21 a 30 anos;Lago Norte;;5;Ônibus;Educação física;Educação física;;Faculdade de Educação Física;Faculdade de Educação Física;BCE;;;
+307;Estudante de Graduação;Até 20 anos;Plano Piloto;;4;Bicicleta;;;;IPOL/REL;ICC Norte;Restaurante Universitário (RU);MASC Norte (Amarelinho);Faculdade de Direito - FD;Não ficou claro se deveria indicar caso retorne ao mesmo lugar que já foi
+308;Estudante de Graduação;21 a 30 anos;Santa Maria;;4;Automóvel;;;PAT / PJC;PJC;Faculdade de Medicina (FS);BSA SUL;BSA NORTE;PAT;
+309;Estudante de Graduação;21 a 30 anos;Vicente Pires;;5;Automóvel;;;ICC Norte;ICC Centro;Restaurante Universitário (RU);BCE;BSA SUL;;Frequento vários estacionamentos, sou PCD e preciso do carro para me locomover. Não tem essa opção no questionário
+310;Estudante de Pós-Graduação;21 a 30 anos;Plano Piloto;;5;Ônibus;Frente do ICC sul;Frente do ICC sul;;Instituto de Biologia;Restaurante Universitário (RU);Faculdade de Medicina (FS);ICC Sul;Instituto de Química;ICC sul fechado nas férias, alunos de pós graduação nao tem férias, e para locomover até o RU temos que dar uma volta enorme saindo do IB.
+311;Estudante de Pós-Graduação;31 a 39 anos;Plano Piloto;;4;Ônibus;Colina;Faculdade de tecnologia;;ICS;Restaurante Universitário (RU);BCE;;;
+312;Estudante de Pós-Graduação;21 a 30 anos;Plano Piloto;;3;Ônibus;Frente do ICC sul;Frente do ICC sul;;Restaurante Universitário (RU);BCE;ICC Norte;ICC Sul;ICC Centro;

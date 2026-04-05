@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Estruturas e Fluxos de Circulação no Campus Darcy Ribeiro (UnB)</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjEwLjgsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvwVt1zgAAAAlwSFlzAAAJ2AAACdgBx6C5rQAABxJJREFUeJzlm21sHMUZx3+z9+LEhjiYM47dhJfSuAaEEuqqreiHVhB6RC6opRUNapGg6guUVEtS+qKV2KIV2g9UhA6FqoAqNaKqqNS0CeUiXUloQUh8oNAIqSgiQa5CsJ3IorblM7Zzu9MPs2tZ5/Pd2d7doO3/y/rWM3uPfzPzzDzPPhZKKf6fla29MSTLWeBGoBcYBY6WzGI1acOSklg8A4Zk+U5gHxrMOmAWqAJ7S2bx2fNiYcxaABD88U8AG+q0mwJ2pxGCUEoxJMs59HS/uEHbcaA3bcvBCK43AJkmbUPfkCqFAHrRa76R2oBN8ZqTvEIAo2iH10hzwFi85iSvEMBRwGvYUqlq0C5VMgACx7YH7e2XNlIefefG3x6sHPeTNC4JNToHtAFzKOVvmT9TuaQ6sQX4DfADxzJTc3wUtUfhRSfBTWjf8NJg5XgX8A/gKkACe9ICYQmA5WS7shd4GdgKPAL8LA0QjOZNtBzLHEWfF4aBnwAPxWRTomoZAIBjmafREN4DbNuVVixWJaiWl8Bi2a78BPAK+gD1I8cy90VtWFJaFQAA25UDaJ9wCbDbscwnV2vE+QzBVw0AwHbltcDf0UHU9xzLfGalzzjfIfiaAADYrvwU+oTYCdz1RsfAH2hxND8KIfiaAQDYrvwMcGQ8s+GCU22bppUwPJqM5kclBI8EAMAdjx5wpjPrH/RF3ah6YTRtV14EbBvLde0ayRXuVsLIN3jsBLCrZBbLkRhZR5EAaGU0DeXNb585MSrgMoDxbCen8j0o0XAn/hC4t2QW96/ZyGW0JCm6SjVNqAhFfirTUej0Ki8D/5oXuapCfB+4sEG32EPwqAA0Tah4wpg92bb5vtL9N++Hha3v7ibPjT0EX9FJsIGaJ1SEmEWIhdFsFoIH9/fGfR6ICkDThIpQvkHNaJbM4rOG8vdkVBVDeT5KzWZ8D0N550goCx0JgFYSKpfOja0frBxfklS9buadkW0zJ9k8f/YFhLjn8vnRU9tnTqjByvEDUdjWTFHNAILR2o3euydQak6Ppj/bWZ1+rOBNARyyXVms6XqrALqrk78umcX9G73pvwjIA1+IyrZGigwALEDoBXYZ+LuvmB85t33mnf/8/oHb9wJfC77vkO3KmwFsVwrgFmAanXABCPf8L0Vp23KK7CBUT7Yrj6CPxVscyzxtu/LLwJ8BH/gKcAZ4EzjgWObXgz4dwAfASccyr4nNuECRzoA6OhJcbwRwLPMF4Lbgew+i/QbAX8MOjmVWgFeBq21Xbo7ZvtgBhF5/wfktgiCAb6Fnw+Gafn8LrjfFbF/sAN5En+d3BOsdWIDwXTQEAQzW9Av9QK3DjFyxAnAs0wNeQjvGq2p+HZ4cfeBg6BgDvQWcBW6yXdnsneWaFPcMgDrLINAtwfU+9Cw4ZLtyJ4BjmT7wItAFXBencUkACB3hjvCG7cr24PO7wNNonwB6JuwMfg79QKzbYRIATqCzyF+0XRkGXzvQS+B5xzKVY5kllkJ4Mfgcqx+IHUDw8uQoOu316eB2OP0Xb38l4KvBx4PAdgVvTWY6Pn/rL0v3DMlyMYggI1USMwAWLQPblQYawCR6v1+QY5mHCSCMZzY8f6x968Bwvi/jkZHAc8BokEeMTEkBCB3hDvQs6AEOO5Z5rrahY5mH323r+9V7bT1ZX2TynpEBIfLARqAAPBElhEQAOJY5puDfk5mO60/nun8+menAQ5TqtR2S5dxEdsNdy+QWQS+lfVEth0QADMnyncfa+68czvflzuYu2jmc7+NYe7+sN5Id3oe3o1Szcp3I6pUidyq1CnP/vjDWoc+CwtPXi1HqyTse/dPA1rn3J4HPAZ8tZDv7ZvI9KMSyzyTCeqVYAQTZ4seo/+IDhLiwkllvKQj/3A8MpV4HrqVxjjGyZGncS6BpttjHmBvJFR4B+oHC8Lq+65UwKo36COVniShZGvcSaJotVsLwx/KFt3/742+eCG5Vh2R5D8u8MjOUp7bMnbmg4E19G4pPr9XAuGfAqsrvlqTX9AuSCWC83Z99qOBN/Rd4ynblD9dqYBL5gMbld8vk/hen14B7gW8AvX/ce5uDXlrjwOO2Kx9Yi4GxpsQgvjfAtiuvQYPrAR50LPPh1dgXOwBYpvwughoA25WfROcb+oCHAXulhVuJAID65XdRvPWxXXklGsKlwC+An64EQmIA4pTtysvQED4OPA7c3yqEVAAAsF35MTSEfuApdEVr09Le1AAAsF25Ce0YrwZ+B3znjY4BQYOSnVQBALBd2Y3OJm0bzXa9NpLv7keIDMuU7KQOAIDtyq6z2Y3/fD/ffUWzkp1UAhiS5RxKjSFEV4Nm40BvUhmhpHUDonHxEUFOIa0AWv4fqLQCaDkISyuAloOwVAJYSQFWKneBUK0EYakGAM2DsP8BLILlj8R7ZYwAAAAASUVORK5CYII=">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<style>
+:root {
+  --bg:    #0d1117; --panel: #161b22; --bord:  #21262d; --bord2: #30363d;
+  --text:  #e6edf3; --muted: #7d8590; --dim:   #484f58; --acc:   #4a90b8;
+  --mono:  'IBM Plex Mono', monospace;
+  --sans:  'IBM Plex Sans', system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body { background:var(--bg); color:var(--text); font-family:var(--sans);
+        font-size:14px; line-height:1.7; -webkit-font-smoothing:antialiased; }
+.wrap { max-width:1400px; margin:0 auto; padding:0 28px 90px; }
+
+header { border-bottom:1px solid var(--bord); padding:50px 28px 34px;
+          max-width:1400px; margin:0 auto; }
+.eyebrow { font-family:var(--mono); font-size:0.68rem; color:var(--acc);
+             letter-spacing:0.16em; text-transform:uppercase; margin-bottom:12px; }
+header h1 { font-family:var(--mono); font-size:2.8rem; font-weight:600;
+              color:var(--text); line-height:1.2; margin-bottom:20px; }
+.badge-row { margin-top:16px; display:flex; flex-wrap:wrap; gap:5px; }
+.badge { font-family:var(--mono); font-size:0.66rem; color:var(--muted);
+          border:1px solid var(--bord2); border-radius:3px; padding:2px 8px; }
+
+nav { position:sticky; top:0; z-index:100;
+       background:rgba(13,17,23,0.94); backdrop-filter:blur(8px);
+       border-bottom:1px solid var(--bord); padding:0 28px; }
+.nav-inner { max-width:1200px; margin:0 auto; display:flex; overflow-x:auto; }
+nav a { font-family:var(--mono); font-size:0.68rem; color:var(--muted);
+         text-decoration:none; padding:11px 15px; letter-spacing:0.06em;
+         text-transform:uppercase; border-bottom:2px solid transparent;
+         white-space:nowrap; transition:color .16s, border-color .16s; }
+nav a:hover { color:var(--text); border-color:var(--acc); }
+
+section { padding-top:62px; }
+.sec-label { font-family:var(--mono); font-size:0.66rem; color:var(--acc);
+              letter-spacing:0.16em; text-transform:uppercase; margin-bottom:5px; }
+.sec-title { font-family:var(--mono); font-size:0.98rem; font-weight:600;
+              color:var(--text); margin-bottom:20px; padding-bottom:12px;
+              border-bottom:1px solid var(--bord); }
+
+.kpi-grid { display:grid; grid-template-columns:1fr 1fr;
+             gap:1px; background:var(--bord); border:1px solid var(--bord);
+             border-radius:5px; overflow:hidden; margin-bottom:28px; }
+.kpi { background:var(--panel); padding:17px 13px; }
+.kpi-v { font-family:var(--mono); font-size:1.6rem; font-weight:600;
+           color:var(--acc); line-height:1; }
+.kpi-l { font-size:0.68rem; color:var(--muted); text-transform:uppercase;
+           letter-spacing:0.06em; margin-top:5px; }
+.kpi-s { font-size:0.65rem; color:var(--dim); margin-top:2px; font-family:var(--mono); }
+
+.panel { background:var(--panel); border:1px solid var(--bord); border-radius:5px; padding:18px; }
+.panel-title { font-family:var(--mono); font-size:0.67rem; color:var(--muted);
+                text-transform:uppercase; letter-spacing:0.08em; margin-bottom:12px; }
+.plotly-chart { width:100%; }
+
+.callout { border-left:2px solid var(--bord2); padding:10px 14px; margin-bottom:10px;
+            font-size:0.83rem; color:#9ca3af; line-height:1.65; }
+.callout strong { color:#c9d1d9; font-weight:500; }
+
+.intro-box { background:#161b22; border:1px solid #30363d; border-radius:8px; padding:20px; margin-bottom:30px; }
+.intro-box h3 { font-size:1.0rem; color:#4a90b8; margin-bottom:10px; font-family:var(--mono); }
+
+.two-col { display:grid; grid-template-columns:1.1fr 0.9fr; gap:22px; align-items:start; }
+.three-col { display:grid; grid-template-columns:1fr 1fr 1fr; gap:18px; }
+.two-eq  { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+
+.storymap-container { display:grid; grid-template-columns:350px 1fr; gap:40px; align-items:start; margin-top:40px; }
+.story-sidebar { position:sticky; top:80px; display:flex; flex-direction:column; gap:20px; }
+
+table { width:100%; border-collapse:collapse; font-size:0.8rem; }
+thead th { font-family:var(--mono); font-size:0.66rem; text-transform:uppercase;
+            letter-spacing:0.07em; color:var(--muted); padding:7px 11px;
+            border-bottom:1px solid var(--bord); text-align:left; font-weight:500; }
+tbody td { padding:6px 11px; border-bottom:1px solid var(--bord); color:var(--text); }
+td.r { text-align:right; font-family:var(--mono); color:var(--muted); }
+tbody tr:hover td { background:rgba(255,255,255,0.025); }
+
+/* PYVIS */
+.net-wrap { background:#0d1117; border:1px solid var(--bord); border-radius:5px;
+             overflow:hidden; position:relative; margin-bottom:20px; }
+#mynetwork { width:100%; height:600px; }
+.net-legend { position:absolute; bottom:12px; left:12px;
+               background:rgba(13,17,23,0.88); border:1px solid var(--bord);
+               border-radius:4px; padding:8px 12px;
+               font-family:var(--mono); font-size:0.66rem; color:var(--muted);
+               z-index:10; pointer-events:none; }
+.net-leg-row { display:flex; align-items:center; gap:6px; margin-bottom:3px; }
+.net-leg-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+
+/* METRIC BLOCKS */
+.metric-block { background:var(--panel); border:1px solid var(--bord);
+                 border-radius:5px; overflow:hidden; margin-bottom:16px; }
+.metric-header { display:flex; justify-content:space-between; align-items:flex-start;
+                  padding:15px 18px 12px; border-bottom:1px solid var(--bord); gap:16px; }
+.metric-name { font-family:var(--mono); font-size:0.9rem; font-weight:600; color:var(--text); }
+.metric-code { font-family:var(--mono); font-size:0.66rem; color:var(--dim); margin-top:3px; }
+.metric-corr-box { text-align:right; flex-shrink:0; }
+.metric-corr-val { font-family:var(--mono); font-size:1.4rem; font-weight:600; line-height:1; }
+.metric-corr-label { font-size:0.68rem; color:var(--muted); margin-top:3px; }
+.metric-body { display:grid; grid-template-columns:1fr 1fr; border-top:1px solid var(--bord); gap:20px; padding-top:15px; }
+.map-img-wrap { background:#0d1117; padding:8px; border-right:1px solid var(--bord);
+                 display:flex; align-items:center; justify-content:center;
+                 width:100%; height:100%; box-sizing:border-box; }
+.map-img { width:100%; display:block; border-radius:3px; }
+.metric-right { display:flex; flex-direction:column; }
+.metric-stats { display:grid; grid-template-columns:1fr 1fr; border-bottom:1px solid var(--bord); }
+.mstat { display:flex; justify-content:space-between; align-items:baseline;
+          padding:7px 13px; border-right:1px solid var(--bord);
+          border-bottom:1px solid var(--bord); gap:8px; }
+.mstat:nth-child(even) { border-right:none; }
+.mstat:nth-last-child(-n+2) { border-bottom:none; }
+.mstat-l { font-size:0.7rem; color:var(--muted); }
+.mstat-v { font-family:var(--mono); font-size:0.8rem; color:var(--text); }
+
+@media(max-width:960px) {
+  .three-col, .two-col, .two-eq, .storymap-container { grid-template-columns:1fr; }
+  .story-sidebar { position:relative; top:0; }
+  .metric-body { grid-template-columns:1fr; }
+  .map-img-wrap { width:100%; border-right:none; border-bottom:1px solid var(--bord); }
+  .metric-right { border-left:none; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Estruturas e Fluxos de Circulação<br>no Campus Darcy Ribeiro:</h1>
+      <div class="eyebrow">potencialidades da sintaxe espacial aliada a técnicas de geoprocessamento</div>
+  <div class="badge-row">
+    <span class="badge">city2graph</span>
+    <span class="badge">NetworkX</span>
+    <span class="badge">GeoPandas</span>
+    <span class="badge">PyVis 0.3.2</span>
+    <span class="badge">Plotly 2.32</span>
+    <span class="badge">360 eixos axiais</span>
+    <span class="badge">Tolerância Correlação: 100m</span>
+    <span class="badge">aspect 0.472 L/A</span>
+    <span class="badge">EPSG:32723</span>
+  </div>
+</header>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#fluxos">01 · Dinâmica de Fluxos</a>
+    <a href="#perfil">02 · Composição</a>
+    <a href="#locais">03 · Locais</a>
+    <a href="#metricas">04 · Métricas Axiais</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<div class="storymap-container">
+  <aside class="story-sidebar">
+    <div class="intro-box">
+      <h3>O Modelo Axial e a Sintaxe Espacial</h3>
+      <p style="margin-bottom:12px; font-size:0.88rem; color:#9ca3af; line-height:1.6;">A <strong>Sintaxe Espacial</strong>, concebida por Hillier e Hanson (1984), é uma teoria que integra sociologia e arquitetura através de representações matemáticas do espaço. Nas análises suportadas por essa teoria, os eixos das vias são simplificados em <strong>grafos</strong>, a partir dos quais são traçadas diversas métricas.</p>
+      <p style="font-size:0.88rem; color:#9ca3af; line-height:1.6;">A Sintaxe Espacial está preocupada com a <strong>forma</strong> do espaço analisado, não necessariamente com seu conteúdo.</p>
+      <h3>A Dissertação (Ferraz Junior, 2025)</h3>
+      <p style="font-size:0.88rem; color:#9ca3af; line-height:1.6;">O estudo revelou que, no Campus Darcy Ribeiro, a integração topológica nem sempre se alinha perfeitamente ao uso efetivo. Por exemplo, a via L3 possui alta integração matemática, mas não é a mais frequentada, sugerindo que os <strong>atratores locais</strong> exercem forte influência. Mesmo assim, a teoria pode fornecer insights valiosos para o planejamento da mobilidade no Campus.</p>
+    </div>
+
+    <div class="kpi-grid">
+      <div class="kpi"><div class="kpi-v">312</div><div class="kpi-l">Respondentes</div></div>
+      <div class="kpi"><div class="kpi-v">41</div><div class="kpi-l">Locais únicos</div></div>
+      <div class="kpi"><div class="kpi-v">4.2</div><div class="kpi-l">Locais/pessoa</div></div>
+      <div class="kpi"><div class="kpi-v">4.1</div><div class="kpi-l">Dias/semana</div><div class="kpi-s">dp = 1.2</div></div>
+      <div class="kpi"><div class="kpi-v">360</div><div class="kpi-l">Eixos axiais</div><div class="kpi-s">720 nós</div></div>
+      <div class="kpi"><div class="kpi-v">0.846</div><div class="kpi-l">Integ. HH</div><div class="kpi-s">máx=1.230</div></div>
+    </div>
+
+    <div class="intro-box" style="border-left: 2px solid #e6b84a;">
+      <p style="font-size: 0.8rem; color: #7d8590;">
+        <strong>Nota Metodológica:</strong> Dados coletados via formulário estruturado no 1º semestre de 2024. Pesquisa de Mestrado (2025) financiada pela CAPES.
+      </p>
+    </div>
+  </aside>
+
+  <div class="story-main">
+    <section id="fluxos" style="padding-top:0;">
+      <div class="sec-label">01 · Dinâmica de Fluxos</div>
+      <div class="sec-title">Redes e Distribuição de Frequência</div>
+      <div class="callout" style="margin-bottom:20px">
+        Abaixo, a exploração visual da rotina acadêmica. O <strong>Mapa Interativo</strong> plota a intensidade do uso declarado, e o mapa de calor ilustra as densidades de conexão entre locais. Por fim, a <strong>Rede de Co-frequência</strong> revela como os usuários vinculam social e funcionalmente esses mesmos espaços.
+      </div>
+
+      <div class="panel" style="padding:0; overflow:hidden; margin-top:20px;">
+        <div id="ch_map" style="width:100%; height:750px;"></div>
+      </div>
+
+      <div class="panel" style="padding:20px; margin-top:20px; display:flex; justify-content:center; background:#0d1117;">
+        <img src="assets/maps/mapa_rotas.png" alt="Densidade de Rotas" style="max-width:100%; border-radius:6px; border: 1px solid var(--bord);">
+      </div>
+
+      <div class="net-wrap" style="margin-top:20px;">
+        <div id="mynetwork"></div>
+        <div class="net-legend">
+          <div class="net-leg-row"><div class="net-leg-dot" style="background:#3c5a82"></div><span>menor frequência</span></div>
+          <div class="net-leg-row"><div class="net-leg-dot" style="background:#dc6400"></div><span>maior frequência</span></div>
+          <div style="margin-top:5px;border-top:1px solid #21262d;padding-top:5px">Espessura = co-frequência</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="perfil">
+      <div class="sec-label">02 · Perfil dos Respondentes</div>
+      <div class="sec-title">Composição da amostra</div>
+      <div class="two-eq">
+        <div class="panel">
+          <div class="panel-title">Vínculo com a UnB</div>
+          <div id="ch_situacao" class="plotly-chart"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-title">Modo de Transporte</div>
+          <div id="ch_modal" class="plotly-chart"></div>
+        </div>
+      </div>
+      <div class="panel" style="margin-top: 18px;">
+        <div class="panel-title">Origem (Região Administrativa)</div>
+        <div id="ch_ra" class="plotly-chart"></div>
+      </div>
+    </section>
+
+    <section id="locais">
+      <div class="sec-label">03 · Locais Frequentados</div>
+      <div class="sec-title">Uso Absoluto Declarado</div>
+      <div class="panel" style="margin-bottom:20px">
+        <div id="ch_places" class="plotly-chart"></div>
+      </div>
+    </section>
+
+    <section id="metricas">
+      <div class="sec-label">04 · Métricas de Configuração Espacial</div>
+      <div class="sec-title">Modelo axial × Frequência declarada</div>
+      <div class="two-eq" style="margin-bottom:20px">
+        <div class="panel">
+          <div class="panel-title">Distribuição: Integração HH</div>
+          <div id="hist_int" class="plotly-chart"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-title">Distribuição: Conectividade</div>
+          <div id="hist_con" class="plotly-chart"></div>
+        </div>
+      </div>
+      
+<div class="metric-block" id="metric-inthh">
+  <div class="metric-header">
+    <div>
+      <div class="metric-name">Integração Global (HH)</div>
+      <div class="metric-code">INThh</div>
+    </div>
+    <div class="metric-corr-box">
+      <div class="metric-corr-val" style="color:#7d8590">+0.1132</div>
+      <div class="metric-corr-label">Correlação muito fraca</div>
+      <div class="metric-corr-label" style="font-size:0.6rem; color:#484f58;">(Tolerância 100m)</div>
+    </div>
+  </div>
+
+  <div style="padding:15px 18px 0px;">
+    <p style="font-size:0.85rem; color:#c9d1d9; margin-bottom:6px;"><strong>O que é?</strong> Facilidade de acesso. Mede quão "perto" uma via está de todas as outras.</p>
+    <p style="font-size:0.85rem; color:#c9d1d9; margin-bottom:6px;"><strong>Valores:</strong> Valores > 1.0 indicam eixos centrais e integrados (vermelho). < 0.8 indicam eixos periféricos (azul).</p>
+    <p style="font-size:0.85rem; color:#e6b84a; margin-bottom:12px;"><strong>Contexto (Dissertação):</strong> A integração revela a estrutura primária de circulação que sustenta as atividades coletivas do campus.</p>
+  </div>
+
+  <div class="metric-body">
+    <div class="map-img-wrap">
+      <img src="assets/maps/mapa_inthh.png" alt="Mapa Integração Global (HH)" class="map-img" loading="lazy">
+    </div>
+    <div class="metric-right">
+      <div class="metric-stats">
+        <div class="mstat"><span class="mstat-l">Mínimo</span><span class="mstat-v">0.483</span></div>
+        <div class="mstat"><span class="mstat-l">Mediana</span><span class="mstat-v">0.846</span></div>
+        <div class="mstat"><span class="mstat-l">Máximo</span><span class="mstat-v">1.230</span></div>
+        <div class="mstat"><span class="mstat-l">Desvio-p.</span><span class="mstat-v">0.149</span></div>
+      </div>
+      <div id="sc_inthh" class="plotly-chart" style="flex:1;min-height:200px;padding:4px"></div>
+    </div>
+  </div>
+</div>
+<script>(function(){var _d=[{"type": "scatter", "mode": "markers", "x": [1.173751, 0.86564732, 0.86529571, 0.86564732, 1.0975569, 1.0504724, 0.81654197, 1.1975031, 1.173751, 1.0641149, 0.95232815, 0.84270489, 0.86214405, 0.89661533, 1.0641149, 1.1948166, 0.95232815, 1.0448053, 1.2208356, 1.173751, 0.95232815, 1.0797557, 0.88396597, 1.1165398, 1.1247931, 1.0975569, 0.80118769, 0.86564732, 0.94014037, 0.84404039, 1.173751, 1.2208356, 0.97410059, 1.1247931, 1.2208356, 1.2208356, 1.1975031, 0.97857511, 1.2208356, 0.86214405, 1.2208356, 0.80118769, 0.81654197, 0.95232815, 1.0448053, 0.95232815], "y": [0.0, 4.0, 84.0, 63.0, 67.0, 2.0, 2.0, 0.0, 1.0, 6.0, 9.0, 2.0, 46.0, 2.0, 30.0, 26.0, 5.0, 12.0, 35.0, 0.0, 2.0, 4.0, 24.0, 73.0, 193.0, 150.0, 5.0, 5.0, 114.0, 70.0, 0.0, 1.0, 7.0, 2.0, 194.0, 16.0, 5.0, 5.0, 12.0, 27.0, 3.0, 3.0, 0.0, 2.0, 2.0, 1.0], "text": ["Autotrac", "BAES", "BCE", "BSA NORTE", "BSA SUL", "CEU", "CDT/CEFTRU", "Ceplan (SG10)", "CET", "CIC/EST", "CO", "Colina de Professores/Alunos", "FACE", "Faculdade de Ciências e Informação", "Faculdade de Direito - FD", "Faculdade de Educação", "Faculdade de Educação Física", "Faculdade de Medicina (FS)", "Faculdade de Tecnologia e Laboratório de Estrutura (FT)", "Fiocruz", "Hospital Veterinário", "HUB", "Instituto de Biologia", "ICC Centro", "ICC Norte", "ICC Sul", "Instituto de Química", "IPOL/REL", "PAT", "PJC", "PMUI", "PMUI/OCAII", "Reitoria", "PRC", "Restaurante Universitário (RU)", "SG1 ao SG4 (IDA / MUS)", "SG12", "ICS", "Banco do Brasil / Café das Letras", "MASC Norte (Amarelinho)", "MASC Centro (Amarelinho)", "MASC Sul (Amarelinho)", "STI", "CDT / INFRA", "Laboratório de Estudos Geodinâmicos", "Centro Comunitário"], "marker": {"size": 9, "color": "#4a90b8", "opacity": 0.85, "line": {"color": "#e6edf3", "width": 0.5}}, "hovertemplate": "<b>%{text}</b><br>Integração Global (HH): %{x:.3f}<br>Menções: %{y}<extra></extra>", "name": "Locais"}, {"type": "scatter", "mode": "lines", "x": [0.80118769, 1.2208356], "y": [20.171600747876415, 36.12609750323093], "line": {"color": "#e6b84a", "width": 1.4, "dash": "dot"}, "hoverinfo": "skip", "name": "r = +0.113"}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#0d1117", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 10, "r": 10, "t": 38, "b": 60}, "title": {"text": "Dispersão: frequência × Integração Global (HH)  (r = +0.113)", "font": {"size": 10, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "xaxis": {"title": "Integração Global (HH)", "gridcolor": "#21262d"}, "yaxis": {"title": "Menções", "gridcolor": "#21262d"}, "legend": {"font": {"size": 9}, "bgcolor": "rgba(0,0,0,0)"}, "height": 270};Plotly.newPlot("sc_inthh",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+
+<div class="metric-block" id="metric-conn">
+  <div class="metric-header">
+    <div>
+      <div class="metric-name">Conectividade</div>
+      <div class="metric-code">CONN</div>
+    </div>
+    <div class="metric-corr-box">
+      <div class="metric-corr-val" style="color:#7d8590">-0.1170</div>
+      <div class="metric-corr-label">Correlação muito fraca</div>
+      <div class="metric-corr-label" style="font-size:0.6rem; color:#484f58;">(Tolerância 100m)</div>
+    </div>
+  </div>
+
+  <div style="padding:15px 18px 0px;">
+    <p style="font-size:0.85rem; color:#c9d1d9; margin-bottom:6px;"><strong>O que é?</strong> Número de cruzamentos diretos que uma via possui.</p>
+    <p style="font-size:0.85rem; color:#c9d1d9; margin-bottom:6px;"><strong>Valores:</strong> Valores altos indicam cruzamentos importantes e distribuidores de fluxo. Valores baixos indicam vias isoladas.</p>
+    <p style="font-size:0.85rem; color:#e6b84a; margin-bottom:12px;"><strong>Contexto (Dissertação):</strong> A alta conectividade no eixo do RU e ICC Sul corrobora a importância funcional desses pontos como hubs.</p>
+  </div>
+
+  <div class="metric-body">
+    <div class="map-img-wrap">
+      <img src="assets/maps/mapa_conn.png" alt="Mapa Conectividade" class="map-img" loading="lazy">
+    </div>
+    <div class="metric-right">
+      <div class="metric-stats">
+        <div class="mstat"><span class="mstat-l">Mínimo</span><span class="mstat-v">1.000</span></div>
+        <div class="mstat"><span class="mstat-l">Mediana</span><span class="mstat-v">3.000</span></div>
+        <div class="mstat"><span class="mstat-l">Máximo</span><span class="mstat-v">12.000</span></div>
+        <div class="mstat"><span class="mstat-l">Desvio-p.</span><span class="mstat-v">1.661</span></div>
+      </div>
+      <div id="sc_conn" class="plotly-chart" style="flex:1;min-height:200px;padding:4px"></div>
+    </div>
+  </div>
+</div>
+<script>(function(){var _d=[{"type": "scatter", "mode": "markers", "x": [8.0, 7.0, 5.0, 7.0, 7.0, 6.0, 8.0, 7.0, 8.0, 12.0, 4.0, 6.0, 7.0, 5.0, 12.0, 7.0, 4.0, 8.0, 11.0, 8.0, 4.0, 8.0, 7.0, 6.0, 4.0, 6.0, 8.0, 7.0, 5.0, 7.0, 8.0, 11.0, 5.0, 5.0, 11.0, 11.0, 7.0, 8.0, 11.0, 7.0, 11.0, 8.0, 8.0, 8.0, 8.0, 5.0], "y": [0.0, 4.0, 84.0, 63.0, 67.0, 2.0, 2.0, 0.0, 1.0, 6.0, 9.0, 2.0, 46.0, 2.0, 30.0, 26.0, 5.0, 12.0, 35.0, 0.0, 2.0, 4.0, 24.0, 73.0, 193.0, 150.0, 5.0, 5.0, 114.0, 70.0, 0.0, 1.0, 7.0, 2.0, 194.0, 16.0, 5.0, 5.0, 12.0, 27.0, 3.0, 3.0, 0.0, 2.0, 2.0, 1.0], "text": ["Autotrac", "BAES", "BCE", "BSA NORTE", "BSA SUL", "CEU", "CDT/CEFTRU", "Ceplan (SG10)", "CET", "CIC/EST", "CO", "Colina de Professores/Alunos", "FACE", "Faculdade de Ciências e Informação", "Faculdade de Direito - FD", "Faculdade de Educação", "Faculdade de Educação Física", "Faculdade de Medicina (FS)", "Faculdade de Tecnologia e Laboratório de Estrutura (FT)", "Fiocruz", "Hospital Veterinário", "HUB", "Instituto de Biologia", "ICC Centro", "ICC Norte", "ICC Sul", "Instituto de Química", "IPOL/REL", "PAT", "PJC", "PMUI", "PMUI/OCAII", "Reitoria", "PRC", "Restaurante Universitário (RU)", "SG1 ao SG4 (IDA / MUS)", "SG12", "ICS", "Banco do Brasil / Café das Letras", "MASC Norte (Amarelinho)", "MASC Centro (Amarelinho)", "MASC Sul (Amarelinho)", "STI", "CDT / INFRA", "Laboratório de Estudos Geodinâmicos", "Centro Comunitário"], "marker": {"size": 9, "color": "#4a90b8", "opacity": 0.85, "line": {"color": "#e6edf3", "width": 0.5}}, "hovertemplate": "<b>%{text}</b><br>Conectividade: %{x:.3f}<br>Menções: %{y}<extra></extra>", "name": "Locais"}, {"type": "scatter", "mode": "lines", "x": [4.0, 12.0], "y": [37.45357178943114, 16.721632818025647], "line": {"color": "#e6b84a", "width": 1.4, "dash": "dot"}, "hoverinfo": "skip", "name": "r = -0.117"}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#0d1117", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 10, "r": 10, "t": 38, "b": 60}, "title": {"text": "Dispersão: frequência × Conectividade  (r = -0.117)", "font": {"size": 10, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "xaxis": {"title": "Conectividade", "gridcolor": "#21262d"}, "yaxis": {"title": "Menções", "gridcolor": "#21262d"}, "legend": {"font": {"size": 9}, "bgcolor": "rgba(0,0,0,0)"}, "height": 270};Plotly.newPlot("sc_conn",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+
+<div class="metric-block" id="metric-control">
+  <div class="metric-header">
+    <div>
+      <div class="metric-name">Controle</div>
+      <div class="metric-code">control</div>
+    </div>
+    <div class="metric-corr-box">
+      <div class="metric-corr-val" style="color:#e6b84a">-0.3530</div>
+      <div class="metric-corr-label">Correlação negativa fraca a moderada</div>
+      <div class="metric-corr-label" style="font-size:0.6rem; color:#484f58;">(Tolerância 100m)</div>
+    </div>
+  </div>
+
+  <div style="padding:15px 18px 0px;">
+    <p style="font-size:0.85rem; color:#c9d1d9; margin-bottom:6px;"><strong>O que é?</strong> Avalia o quanto uma via domina o acesso às suas vizinhas.</p>
+    <p style="font-size:0.85rem; color:#c9d1d9; margin-bottom:6px;"><strong>Valores:</strong> Vias de alto controle são passagens obrigatórias para os eixos ao redor.</p>
+    <p style="font-size:0.85rem; color:#e6b84a; margin-bottom:12px;"><strong>Contexto (Dissertação):</strong> Mostra áreas que controlam o fluxo de microescala, como entradas de estacionamentos.</p>
+  </div>
+
+  <div class="metric-body">
+    <div class="map-img-wrap">
+      <img src="assets/maps/mapa_control.png" alt="Mapa Controle" class="map-img" loading="lazy">
+    </div>
+    <div class="metric-right">
+      <div class="metric-stats">
+        <div class="mstat"><span class="mstat-l">Mínimo</span><span class="mstat-v">0.091</span></div>
+        <div class="mstat"><span class="mstat-l">Mediana</span><span class="mstat-v">0.833</span></div>
+        <div class="mstat"><span class="mstat-l">Máximo</span><span class="mstat-v">4.500</span></div>
+        <div class="mstat"><span class="mstat-l">Desvio-p.</span><span class="mstat-v">0.703</span></div>
+      </div>
+      <div id="sc_control" class="plotly-chart" style="flex:1;min-height:200px;padding:4px"></div>
+    </div>
+  </div>
+</div>
+<script>(function(){var _d=[{"type": "scatter", "mode": "markers", "x": [3.2416666, 2.95, 2.1666667, 2.95, 2.0333333, 3.0833333, 4.25, 2.4242425, 3.2416666, 4.5, 1.6666666, 2.5, 2.95, 2.1666667, 4.5, 2.1325758, 1.6666666, 3.6166666, 3.6940477, 3.2416666, 1.6666666, 3.1583333, 2.2, 2.6428571, 1.0, 1.8690476, 3.6166666, 2.7, 1.8095238, 2.3428571, 3.5, 3.6940477, 2.5, 1.7916666, 3.6940477, 3.6940477, 2.3825758, 4.0833335, 3.6940477, 2.95, 3.6940477, 3.6166666, 4.25, 4.25, 4.25, 2.7], "y": [0.0, 4.0, 84.0, 63.0, 67.0, 2.0, 2.0, 0.0, 1.0, 6.0, 9.0, 2.0, 46.0, 2.0, 30.0, 26.0, 5.0, 12.0, 35.0, 0.0, 2.0, 4.0, 24.0, 73.0, 193.0, 150.0, 5.0, 5.0, 114.0, 70.0, 0.0, 1.0, 7.0, 2.0, 194.0, 16.0, 5.0, 5.0, 12.0, 27.0, 3.0, 3.0, 0.0, 2.0, 2.0, 1.0], "text": ["Autotrac", "BAES", "BCE", "BSA NORTE", "BSA SUL", "CEU", "CDT/CEFTRU", "Ceplan (SG10)", "CET", "CIC/EST", "CO", "Colina de Professores/Alunos", "FACE", "Faculdade de Ciências e Informação", "Faculdade de Direito - FD", "Faculdade de Educação", "Faculdade de Educação Física", "Faculdade de Medicina (FS)", "Faculdade de Tecnologia e Laboratório de Estrutura (FT)", "Fiocruz", "Hospital Veterinário", "HUB", "Instituto de Biologia", "ICC Centro", "ICC Norte", "ICC Sul", "Instituto de Química", "IPOL/REL", "PAT", "PJC", "PMUI", "PMUI/OCAII", "Reitoria", "PRC", "Restaurante Universitário (RU)", "SG1 ao SG4 (IDA / MUS)", "SG12", "ICS", "Banco do Brasil / Café das Letras", "MASC Norte (Amarelinho)", "MASC Centro (Amarelinho)", "MASC Sul (Amarelinho)", "STI", "CDT / INFRA", "Laboratório de Estudos Geodinâmicos", "Centro Comunitário"], "marker": {"size": 9, "color": "#4a90b8", "opacity": 0.85, "line": {"color": "#e6edf3", "width": 0.5}}, "hovertemplate": "<b>%{text}</b><br>Controle: %{x:.3f}<br>Menções: %{y}<extra></extra>", "name": "Locais"}, {"type": "scatter", "mode": "lines", "x": [1.0, 4.5], "y": [66.55625703975034, -0.7842767519120457], "line": {"color": "#e6b84a", "width": 1.4, "dash": "dot"}, "hoverinfo": "skip", "name": "r = -0.353"}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#0d1117", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 10, "r": 10, "t": 38, "b": 60}, "title": {"text": "Dispersão: frequência × Controle  (r = -0.353)", "font": {"size": 10, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "xaxis": {"title": "Controle", "gridcolor": "#21262d"}, "yaxis": {"title": "Menções", "gridcolor": "#21262d"}, "legend": {"font": {"size": 9}, "bgcolor": "rgba(0,0,0,0)"}, "height": 270};Plotly.newPlot("sc_control",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+
+<div class="metric-block" id="metric-md">
+  <div class="metric-header">
+    <div>
+      <div class="metric-name">Profundidade Média</div>
+      <div class="metric-code">MD  ·  escala de cor invertida</div>
+    </div>
+    <div class="metric-corr-box">
+      <div class="metric-corr-val" style="color:#7d8590">-0.0151</div>
+      <div class="metric-corr-label">Correlação muito fraca</div>
+      <div class="metric-corr-label" style="font-size:0.6rem; color:#484f58;">(Tolerância 100m)</div>
+    </div>
+  </div>
+
+  <div style="padding:15px 18px 0px;">
+    <p style="font-size:0.85rem; color:#c9d1d9; margin-bottom:6px;"><strong>O que é?</strong> Mede o esforço de circulação (número de mudanças de direção).</p>
+    <p style="font-size:0.85rem; color:#c9d1d9; margin-bottom:6px;"><strong>Valores:</strong> Quanto MENOR o valor (vermelho na escala invertida), mais acessível o local. Valores altos (azul) indicam locais "escondidos".</p>
+    <p style="font-size:0.85rem; color:#e6b84a; margin-bottom:12px;"><strong>Contexto (Dissertação):</strong> Áreas com alta profundidade tendem a ser mais silenciosas e segregadas.</p>
+  </div>
+
+  <div class="metric-body">
+    <div class="map-img-wrap">
+      <img src="assets/maps/mapa_md.png" alt="Mapa Profundidade Média" class="map-img" loading="lazy">
+    </div>
+    <div class="metric-right">
+      <div class="metric-stats">
+        <div class="mstat"><span class="mstat-l">Mínimo</span><span class="mstat-v">5.825</span></div>
+        <div class="mstat"><span class="mstat-l">Mediana</span><span class="mstat-v">8.013</span></div>
+        <div class="mstat"><span class="mstat-l">Máximo</span><span class="mstat-v">13.279</span></div>
+        <div class="mstat"><span class="mstat-l">Desvio-p.</span><span class="mstat-v">1.369</span></div>
+      </div>
+      <div id="sc_md" class="plotly-chart" style="flex:1;min-height:200px;padding:4px"></div>
+    </div>
+  </div>
+</div>
+<script>(function(){var _d=[{"type": "scatter", "mode": "markers", "x": [7.8885794, 10.002786, 9.1197767, 10.002786, 13.278551, 6.649025, 9.3649025, 8.9303617, 8.0445681, 10.983287, 7.2311978, 10.398329, 12.963788, 9.1197767, 12.963788, 11.763231, 7.2311978, 10.339833, 7.7855153, 7.8830085, 7.2311978, 6.495822, 12.635098, 7.788301, 7.8300834, 8.7688026, 11.289694, 10.983287, 10.075209, 10.983287, 8.2562675, 8.8245125, 9.1476326, 6.2757659, 7.788301, 8.9303617, 7.9331474, 12.963788, 7.8384399, 10.002786, 8.2311974, 11.774373, 9.2311974, 10.256268, 9.2089138, 10.983287], "y": [0.0, 4.0, 84.0, 63.0, 67.0, 2.0, 2.0, 0.0, 1.0, 6.0, 9.0, 2.0, 46.0, 2.0, 30.0, 26.0, 5.0, 12.0, 35.0, 0.0, 2.0, 4.0, 24.0, 73.0, 193.0, 150.0, 5.0, 5.0, 114.0, 70.0, 0.0, 1.0, 7.0, 2.0, 194.0, 16.0, 5.0, 5.0, 12.0, 27.0, 3.0, 3.0, 0.0, 2.0, 2.0, 1.0], "text": ["Autotrac", "BAES", "BCE", "BSA NORTE", "BSA SUL", "CEU", "CDT/CEFTRU", "Ceplan (SG10)", "CET", "CIC/EST", "CO", "Colina de Professores/Alunos", "FACE", "Faculdade de Ciências e Informação", "Faculdade de Direito - FD", "Faculdade de Educação", "Faculdade de Educação Física", "Faculdade de Medicina (FS)", "Faculdade de Tecnologia e Laboratório de Estrutura (FT)", "Fiocruz", "Hospital Veterinário", "HUB", "Instituto de Biologia", "ICC Centro", "ICC Norte", "ICC Sul", "Instituto de Química", "IPOL/REL", "PAT", "PJC", "PMUI", "PMUI/OCAII", "Reitoria", "PRC", "Restaurante Universitário (RU)", "SG1 ao SG4 (IDA / MUS)", "SG12", "ICS", "Banco do Brasil / Café das Letras", "MASC Norte (Amarelinho)", "MASC Centro (Amarelinho)", "MASC Sul (Amarelinho)", "STI", "CDT / INFRA", "Laboratório de Estudos Geodinâmicos", "Centro Comunitário"], "marker": {"size": 9, "color": "#4a90b8", "opacity": 0.85, "line": {"color": "#e6edf3", "width": 0.5}}, "hovertemplate": "<b>%{text}</b><br>Profundidade Média: %{x:.3f}<br>Menções: %{y}<extra></extra>", "name": "Locais"}, {"type": "scatter", "mode": "lines", "x": [6.2757659, 13.278551], "y": [29.839667804032008, 27.104710462795765], "line": {"color": "#e6b84a", "width": 1.4, "dash": "dot"}, "hoverinfo": "skip", "name": "r = -0.015"}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#0d1117", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 10, "r": 10, "t": 38, "b": 60}, "title": {"text": "Dispersão: frequência × Profundidade Média  (r = -0.015)", "font": {"size": 10, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "xaxis": {"title": "Profundidade Média", "gridcolor": "#21262d"}, "yaxis": {"title": "Menções", "gridcolor": "#21262d"}, "legend": {"font": {"size": 9}, "bgcolor": "rgba(0,0,0,0)"}, "height": 270};Plotly.newPlot("sc_md",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+
+<div class="metric-block" id="metric-ch">
+  <div class="metric-header">
+    <div>
+      <div class="metric-name">Escolha (Choice)</div>
+      <div class="metric-code">CH</div>
+    </div>
+    <div class="metric-corr-box">
+      <div class="metric-corr-val" style="color:#7d8590">-0.0939</div>
+      <div class="metric-corr-label">Correlação muito fraca</div>
+      <div class="metric-corr-label" style="font-size:0.6rem; color:#484f58;">(Tolerância 100m)</div>
+    </div>
+  </div>
+
+  <div style="padding:15px 18px 0px;">
+    <p style="font-size:0.85rem; color:#c9d1d9; margin-bottom:6px;"><strong>O que é?</strong> Potencial de atalho. Mede o uso de uma via nos caminhos mais curtos do sistema.</p>
+    <p style="font-size:0.85rem; color:#c9d1d9; margin-bottom:6px;"><strong>Valores:</strong> Valores elevados sinalizam eixos de grande fluxo de passagem (pedestres e carros).</p>
+    <p style="font-size:0.85rem; color:#e6b84a; margin-bottom:12px;"><strong>Contexto (Dissertação):</strong> A análise de Choice permite distinguir vias de destino (Integração) de vias de passagem (Escolha).</p>
+  </div>
+
+  <div class="metric-body">
+    <div class="map-img-wrap">
+      <img src="assets/maps/mapa_ch.png" alt="Mapa Escolha (Choice)" class="map-img" loading="lazy">
+    </div>
+    <div class="metric-right">
+      <div class="metric-stats">
+        <div class="mstat"><span class="mstat-l">Mínimo</span><span class="mstat-v">0.000</span></div>
+        <div class="mstat"><span class="mstat-l">Mediana</span><span class="mstat-v">903.500</span></div>
+        <div class="mstat"><span class="mstat-l">Máximo</span><span class="mstat-v">34874.000</span></div>
+        <div class="mstat"><span class="mstat-l">Desvio-p.</span><span class="mstat-v">4442.116</span></div>
+      </div>
+      <div id="sc_ch" class="plotly-chart" style="flex:1;min-height:200px;padding:4px"></div>
+    </div>
+  </div>
+</div>
+<script>(function(){var _d=[{"type": "scatter", "mode": "markers", "x": [24107.0, 7848.0, 3628.0, 7848.0, 13296.0, 20358.0, 9910.0, 12151.0, 24107.0, 21414.0, 8925.0, 4376.0, 7171.0, 6070.0, 21414.0, 8048.0, 8925.0, 27301.0, 24068.0, 24107.0, 8925.0, 8456.0, 7841.0, 13296.0, 13990.0, 13296.0, 13282.0, 7848.0, 3279.0, 7466.0, 27301.0, 24068.0, 8099.0, 19047.0, 24068.0, 24068.0, 12151.0, 11930.0, 24068.0, 7171.0, 24068.0, 13282.0, 9910.0, 10701.0, 27301.0, 8925.0], "y": [0.0, 4.0, 84.0, 63.0, 67.0, 2.0, 2.0, 0.0, 1.0, 6.0, 9.0, 2.0, 46.0, 2.0, 30.0, 26.0, 5.0, 12.0, 35.0, 0.0, 2.0, 4.0, 24.0, 73.0, 193.0, 150.0, 5.0, 5.0, 114.0, 70.0, 0.0, 1.0, 7.0, 2.0, 194.0, 16.0, 5.0, 5.0, 12.0, 27.0, 3.0, 3.0, 0.0, 2.0, 2.0, 1.0], "text": ["Autotrac", "BAES", "BCE", "BSA NORTE", "BSA SUL", "CEU", "CDT/CEFTRU", "Ceplan (SG10)", "CET", "CIC/EST", "CO", "Colina de Professores/Alunos", "FACE", "Faculdade de Ciências e Informação", "Faculdade de Direito - FD", "Faculdade de Educação", "Faculdade de Educação Física", "Faculdade de Medicina (FS)", "Faculdade de Tecnologia e Laboratório de Estrutura (FT)", "Fiocruz", "Hospital Veterinário", "HUB", "Instituto de Biologia", "ICC Centro", "ICC Norte", "ICC Sul", "Instituto de Química", "IPOL/REL", "PAT", "PJC", "PMUI", "PMUI/OCAII", "Reitoria", "PRC", "Restaurante Universitário (RU)", "SG1 ao SG4 (IDA / MUS)", "SG12", "ICS", "Banco do Brasil / Café das Letras", "MASC Norte (Amarelinho)", "MASC Centro (Amarelinho)", "MASC Sul (Amarelinho)", "STI", "CDT / INFRA", "Laboratório de Estudos Geodinâmicos", "Centro Comunitário"], "marker": {"size": 9, "color": "#4a90b8", "opacity": 0.85, "line": {"color": "#e6edf3", "width": 0.5}}, "hovertemplate": "<b>%{text}</b><br>Escolha (Choice): %{x:.3f}<br>Menções: %{y}<extra></extra>", "name": "Locais"}, {"type": "scatter", "mode": "lines", "x": [3279.0, 27301.0], "y": [35.28944358425849, 20.759489081618817], "line": {"color": "#e6b84a", "width": 1.4, "dash": "dot"}, "hoverinfo": "skip", "name": "r = -0.094"}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#0d1117", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 10, "r": 10, "t": 38, "b": 60}, "title": {"text": "Dispersão: frequência × Escolha (Choice)  (r = -0.094)", "font": {"size": 10, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "xaxis": {"title": "Escolha (Choice)", "gridcolor": "#21262d"}, "yaxis": {"title": "Menções", "gridcolor": "#21262d"}, "legend": {"font": {"size": 9}, "bgcolor": "rgba(0,0,0,0)"}, "height": 270};Plotly.newPlot("sc_ch",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+    </section>
+  </div>
+</div>
+
+</div>
+
+<footer style="line-height:1.8; color:var(--muted); text-align:center; border-top:1px solid var(--bord); margin-top:80px; padding:40px 20px;">
+  <em>2026</em><br><br>
+  <span style="font-size:0.75rem; color:var(--dim);">
+    Gerado com Python · city2graph 0.1.6 · Plotly · PyVis · NetworkX
+  </span>
+</footer>
+
+<script>(function(){var _d=[{"customdata": {"dtype": "f8", "bdata": "AAAAAAAAEEDkPwdphoMvwG/JIiNn70fAAAAAAAAAVUCjF/l9noUvwD5jeUsW70fAAAAAAACAT0Dn3Ykxo4MvwMb/T06B70fAAAAAAADAUEBPtYFqoIgvwAFD2WDx7kfAAAAAAAAAAEDHTJqU6ocvwCTh5cjN7UfAAAAAAAAAAEBXOP9ciowvwEaxnS707kfAAAAAAAAA8D/zByqVDYovwP0N3vRk70fAAAAAAAAAGEBUzKQmd4QvwO0jHMg570fAAAAAAAAAIkC0z/FgfYYvwP1JYirm7UfAAAAAAAAAAECQnZRuh4MvwDgCGD/+70fAAAAAAAAAR0C0mEH0YIQvwAgc/tqZ70fAAAAAAAAAAEDYSQNIgoUvwDJ/0gsH70fAAAAAAAAAPkAv/qye7oQvwCitHLme70fAAAAAAAAAOkAqpAuwPokvwLfkYRqY70fAAAAAAAAAFEBXtZcUzIYvwD1NbNki7kfAAAAAAAAAKEBY1QQjjokvwGoAW8757kfAAAAAAACAQUA+SlfO84YvwGzboamv70fAAAAAAAAAAECNDpb6ln8vwKW1VmxC8EfAAAAAAAAAEEAwMYK1JosvwABUcTTR70fAAAAAAAAAOECvBCujUogvwEtLcKDC7kfAAAAAAABAUkCk3K1A+YYvwJ89XPJM70fAAAAAAAAgaEBJduA45IUvwATuygxo70fAAAAAAADAYkD+Ebq7uYcvwEZDVaoQ70fAAAAAAAAAFEAEVw6RX4kvwJj2ZFmy7kfAAAAAAAAAFEBJRAjhNoQvwO/BvrlN70fAAAAAAACAXED6gUNXd4QvwJAuCFd570fAAAAAAACAUUB+MRJeSoQvwKMFxU9k70fAAAAAAAAA8D+8YtTio4gvwNW6Zi1T70fAAAAAAAAAHEAd9L/2hYYvwODxZ0357kfAAAAAAAAAAEDW5BIuIYUvwLoNUvjw70fAAAAAAABAaEBfUMOKPIcvwHKXMKdp70fAAAAAAAAAMEBJL1KyhYcvwI6A3XGE70fAAAAAAAAAFEDGRKWrr4cvwG0N5uCt70fAAAAAAAAAFEBnM2FHyIMvwDP56jq770fAAAAAAAAAKEBf9Tm/r4cvwDAjh6Nl70fAAAAAAAAAO0DTfymSHIQvwKVpkueA70fAAAAAAAAACECdPIM/t4YvwAWEqEeE70fAAAAAAAAACEAogRA9JYkvwCUqRRzQ7kfAAAAAAAAAAED/uFgFGosvwHHNs7XV7kfAAAAAAAAAAEBSwrAk0YovwKrTU5n47kfAAAAAAAAA8D/+orRaHYQvwDoSn7Yo70fA", "shape": "41, 3"}, "hovertemplate": "<b>%{hovertext}</b><br><br>freq=%{marker.color}<extra></extra>", "hovertext": ["BAES", "BCE", "BSA NORTE", "BSA SUL", "CEU", "CDT/CEFTRU", "CET", "CIC/EST", "CO", "Colina de Professores/Alunos", "FACE", "Faculdade de Ciências e Informação", "Faculdade de Direito - FD", "Faculdade de Educação", "Faculdade de Educação Física", "Faculdade de Medicina (FS)", "Faculdade de Tecnologia e Laboratório de Estrutura (FT)", "Hospital Veterinário", "HUB", "Instituto de Biologia", "ICC Centro", "ICC Norte", "ICC Sul", "Instituto de Química", "IPOL/REL", "PAT", "PJC", "PMUI/OCAII", "Reitoria", "PRC", "Restaurante Universitário (RU)", "SG1 ao SG4 (IDA / MUS)", "SG12", "ICS", "Banco do Brasil / Café das Letras", "MASC Norte (Amarelinho)", "MASC Centro (Amarelinho)", "MASC Sul (Amarelinho)", "CDT / INFRA", "Laboratório de Estudos Geodinâmicos", "Centro Comunitário"], "lat": {"dtype": "f8", "bdata": "5D8HaYaDL8CjF/l9noUvwOfdiTGjgy/AT7WBaqCIL8DHTJqU6ocvwFc4/1yKjC/A8wcqlQ2KL8BUzKQmd4QvwLTP8WB9hi/AkJ2UboeDL8C0mEH0YIQvwNhJA0iChS/AL/6snu6EL8AqpAuwPokvwFe1lxTMhi/AWNUEI46JL8A+SlfO84YvwI0OlvqWfy/AMDGCtSaLL8CvBCujUogvwKTcrUD5hi/ASXbgOOSFL8D+Ebq7uYcvwARXDpFfiS/ASUQI4TaEL8D6gUNXd4QvwH4xEl5KhC/AvGLU4qOIL8Ad9L/2hYYvwNbkEi4hhS/AX1DDijyHL8BJL1KyhYcvwMZEpauvhy/AZzNhR8iDL8Bf9Tm/r4cvwNN/KZIchC/AnTyDP7eGL8AogRA9JYkvwP+4WAUaiy/AUsKwJNGKL8D+orRaHYQvwA=="}, "legendgroup": "", "lon": {"dtype": "f8", "bdata": "b8kiI2fvR8A+Y3lLFu9HwMb/T06B70fAAUPZYPHuR8Ak4eXIze1HwEaxnS707kfA/Q3e9GTvR8DtIxzIOe9HwP1JYirm7UfAOAIYP/7vR8AIHP7ame9HwDJ/0gsH70fAKK0cuZ7vR8C35GEamO9HwD1NbNki7kfAagBbzvnuR8Bs26Gpr+9HwKW1VmxC8EfAAFRxNNHvR8BLS3Cgwu5HwJ89XPJM70fABO7KDGjvR8BGQ1WqEO9HwJj2ZFmy7kfA78G+uU3vR8CQLghXee9HwKMFxU9k70fA1bpmLVPvR8Dg8WdN+e5HwLoNUvjw70fAcpcwp2nvR8COgN1xhO9HwG0N5uCt70fAM/nqOrvvR8AwI4ejZe9HwKVpkueA70fABYSoR4TvR8AlKkUc0O5HwHHNs7XV7kfAqtNTmfjuR8A6Ep+2KO9HwA=="}, "marker": {"color": {"dtype": "i2", "bdata": "BABUAD8AQwACAAIAAQAGAAkAAgAuAAIAHgAaAAUADAAjAAIABAAYAEkAwQCWAAUABQByAEYAAQAHAAIAwgAQAAUABQAMABsAAwADAAIAAgABAA=="}, "coloraxis": "coloraxis", "size": {"dtype": "i2", "bdata": "BABUAD8AQwACAAIAAQAGAAkAAgAuAAIAHgAaAAUADAAjAAIABAAYAEkAwQCWAAUABQByAEYAAQAHAAIAwgAQAAUABQAMABsAAwADAAIAAgABAA=="}, "sizemode": "area", "sizeref": 0.485}, "mode": "markers", "name": "", "showlegend": false, "subplot": "mapbox", "type": "scattermapbox"}];var _l={"template": {"data": {"histogram2dcontour": [{"type": "histogram2dcontour", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "choropleth": [{"type": "choropleth", "colorbar": {"outlinewidth": 0, "ticks": ""}}], "histogram2d": [{"type": "histogram2d", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "heatmap": [{"type": "heatmap", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "contourcarpet": [{"type": "contourcarpet", "colorbar": {"outlinewidth": 0, "ticks": ""}}], "contour": [{"type": "contour", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "surface": [{"type": "surface", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "mesh3d": [{"type": "mesh3d", "colorbar": {"outlinewidth": 0, "ticks": ""}}], "scatter": [{"fillpattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}, "type": "scatter"}], "parcoords": [{"type": "parcoords", "line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatterpolargl": [{"type": "scatterpolargl", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}, "pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "bar"}], "scattergeo": [{"type": "scattergeo", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatterpolar": [{"type": "scatterpolar", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "histogram": [{"marker": {"pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "histogram"}], "scattergl": [{"type": "scattergl", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatter3d": [{"type": "scatter3d", "line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scattermap": [{"type": "scattermap", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scattermapbox": [{"type": "scattermapbox", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatterternary": [{"type": "scatterternary", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scattercarpet": [{"type": "scattercarpet", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}, "pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "barpolar"}], "pie": [{"automargin": true, "type": "pie"}]}, "layout": {"autotypenumbers": "strict", "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "hovermode": "closest", "hoverlabel": {"align": "left"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"bgcolor": "#E5ECF6", "angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "ternary": {"bgcolor": "#E5ECF6", "aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]]}, "xaxis": {"gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "automargin": true, "zerolinewidth": 2}, "yaxis": {"gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "automargin": true, "zerolinewidth": 2}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "geo": {"bgcolor": "white", "landcolor": "#E5ECF6", "subunitcolor": "white", "showland": true, "showlakes": true, "lakecolor": "white"}, "title": {"x": 0.05}, "mapbox": {"style": "light"}}}, "mapbox": {"domain": {"x": [0.0, 1.0], "y": [0.0, 1.0]}, "center": {"lat": -15.763147083260264, "lon": -47.86911199379651}, "zoom": 14.5, "style": "carto-darkmatter"}, "coloraxis": {"colorbar": {"title": {"text": "freq"}}, "colorscale": [[0.0, "#30123b"], [0.07142857142857142, "#4145ab"], [0.14285714285714285, "#4675ed"], [0.21428571428571427, "#39a2fc"], [0.2857142857142857, "#1bcfd4"], [0.35714285714285715, "#24eca6"], [0.42857142857142855, "#61fc6c"], [0.5, "#a4fc3b"], [0.5714285714285714, "#d1e834"], [0.6428571428571429, "#f3c63a"], [0.7142857142857143, "#fe9b2d"], [0.7857142857142857, "#f36315"], [0.8571428571428571, "#d93806"], [0.9285714285714286, "#b11901"], [1.0, "#7a0402"]]}, "legend": {"tracegroupgap": 0, "itemsizing": "constant"}, "title": {"text": "Mapa de Frequência Interativo"}, "margin": {"r": 0, "t": 40, "l": 0, "b": 0}, "font": {"color": "#e6edf3", "family": "IBM Plex Mono"}, "paper_bgcolor": "#161b22"};Plotly.newPlot("ch_map",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+<script>(function(){var _d=[{"type": "pie", "hole": 0.58, "labels": ["Estudante de Graduação", "Estudante de Pós-Graduação", "Servidor", "Professor"], "values": [272, 32, 5, 3], "marker": {"colors": ["#4a90b8", "#e6b84a", "#5ec491", "#b87a4a"], "line": {"color": "#0d1117", "width": 1.5}}, "textinfo": "percent", "textfont": {"size": 10, "family": "IBM Plex Mono"}, "hovertemplate": "<b>%{label}</b><br>%{value} (%{percent})<extra></extra>", "sort": false}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#161b22", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 10, "r": 10, "t": 38, "b": 10}, "title": {"text": "Vínculo com a UnB", "font": {"size": 11, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "legend": {"font": {"size": 9}, "bgcolor": "rgba(0,0,0,0)"}, "height": 300};Plotly.newPlot("ch_situacao",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+<script>(function(){var _d=[{"type": "pie", "hole": 0.58, "labels": ["Ônibus", "Automóvel", "Bicicleta", "Carona", "A pé", "Motocicleta"], "values": [231, 67, 5, 5, 3, 1], "marker": {"colors": ["#4a90b8", "#e6b84a", "#5ec491", "#b87a4a", "#b84a6e", "#7a4ab8"], "line": {"color": "#0d1117", "width": 1.5}}, "textinfo": "percent", "textfont": {"size": 10, "family": "IBM Plex Mono"}, "hovertemplate": "<b>%{label}</b><br>%{value} (%{percent})<extra></extra>", "sort": false}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#161b22", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 10, "r": 10, "t": 38, "b": 10}, "title": {"text": "Modo de Transporte", "font": {"size": 11, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "legend": {"font": {"size": 9}, "bgcolor": "rgba(0,0,0,0)"}, "height": 300};Plotly.newPlot("ch_modal",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+<script>(function(){var _d=[{"type": "bar", "orientation": "h", "x": [47, 39, 25, 14, 13, 13, 11, 10, 10, 10], "y": ["Plano Piloto", "Taguatinga", "Ceilândia", "Guará", "Sobradinho", "Santa Maria", "Águas Claras", "Samambaia", "Jardim Botânico", "Gama"], "text": ["47", "39", "25", "14", "13", "13", "11", "10", "10", "10"], "textposition": "outside", "marker": {"color": ["rgba(74,144,184,0.88)", "rgba(78,142,182,0.88)", "rgba(82,140,180,0.88)", "rgba(86,138,178,0.88)", "rgba(90,136,176,0.88)", "rgba(94,134,174,0.88)", "rgba(98,132,172,0.88)", "rgba(102,130,170,0.88)", "rgba(106,128,168,0.88)", "rgba(110,126,166,0.88)"]}, "hovertemplate": "<b>%{y}</b><br>%{x}<extra></extra>"}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#0d1117", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 280, "r": 65, "t": 38, "b": 16}, "title": {"text": "Top 10 regiões administrativas", "font": {"size": 11, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "xaxis": {"gridcolor": "#21262d", "zeroline": false}, "yaxis": {"autorange": "reversed", "tickfont": {"size": 10}}, "height": 340};Plotly.newPlot("ch_ra",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+<script>(function(){var _d=[{"type": "bar", "orientation": "h", "x": [194, 193, 150, 114, 84, 73, 70, 67, 63, 46, 35, 30, 27, 26, 24, 16, 12, 12, 9, 7, 6, 5, 5, 5, 5], "y": ["Restaurante Universitário (RU)", "ICC Norte", "ICC Sul", "PAT", "BCE", "ICC Centro", "PJC", "BSA SUL", "BSA NORTE", "FACE", "Faculdade de Tecnologia e Laboratório de Estrutu…", "Faculdade de Direito - FD", "MASC Norte (Amarelinho)", "Faculdade de Educação", "Instituto de Biologia", "SG1 ao SG4 (IDA / MUS)", "Faculdade de Medicina (FS)", "Banco do Brasil / Café das Letras", "CO", "Reitoria", "CIC/EST", "IPOL/REL", "SG12", "Instituto de Química", "Faculdade de Educação Física"], "text": ["194", "193", "150", "114", "84", "73", "70", "67", "63", "46", "35", "30", "27", "26", "24", "16", "12", "12", "9", "7", "6", "5", "5", "5", "5"], "textposition": "outside", "marker": {"color": ["rgba(74,144,184,0.88)", "rgba(78,142,182,0.88)", "rgba(82,140,180,0.88)", "rgba(86,138,178,0.88)", "rgba(90,136,176,0.88)", "rgba(94,134,174,0.88)", "rgba(98,132,172,0.88)", "rgba(102,130,170,0.88)", "rgba(106,128,168,0.88)", "rgba(110,126,166,0.88)", "rgba(114,124,164,0.88)", "rgba(118,122,162,0.88)", "rgba(122,120,160,0.88)", "rgba(126,118,158,0.88)", "rgba(130,116,156,0.88)", "rgba(134,114,154,0.88)", "rgba(138,112,152,0.88)", "rgba(142,110,150,0.88)", "rgba(146,108,148,0.88)", "rgba(150,106,146,0.88)", "rgba(154,104,144,0.88)", "rgba(158,102,142,0.88)", "rgba(162,100,140,0.88)", "rgba(166,98,138,0.88)", "rgba(170,96,136,0.88)"]}, "hovertemplate": "<b>%{y}</b><br>%{x}<extra></extra>"}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#0d1117", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 280, "r": 65, "t": 38, "b": 16}, "title": {"text": "Top 25 locais frequentados", "font": {"size": 11, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "xaxis": {"gridcolor": "#21262d", "zeroline": false}, "yaxis": {"autorange": "reversed", "tickfont": {"size": 10}}, "height": 700};Plotly.newPlot("ch_places",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+<script>(function(){var _d=[{"type": "bar", "x": ["0.514", "0.577", "0.639", "0.701", "0.763", "0.826", "0.888", "0.950", "1.012", "1.074", "1.137", "1.199"], "y": [7, 12, 27, 39, 51, 52, 59, 42, 36, 22, 7, 6], "marker": {"color": "#4a90b8", "opacity": 0.82, "line": {"color": "#0d1117", "width": 0.8}}, "hovertemplate": "Integração HH: %{x}<br>Eixos: %{y}<extra></extra>"}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#0d1117", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 10, "r": 10, "t": 38, "b": 60}, "title": {"text": "Distribuição de Integração HH", "font": {"size": 11, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "xaxis": {"title": "Integração HH", "gridcolor": "#21262d"}, "yaxis": {"title": "Eixos", "gridcolor": "#21262d"}, "height": 240, "bargap": 0.04};Plotly.newPlot("hist_int",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+<script>(function(){var _d=[{"type": "bar", "x": ["1.458", "2.375", "3.292", "4.208", "5.125", "6.042", "6.958", "7.875", "8.792", "9.708", "10.625", "11.542"], "y": [50, 111, 95, 56, 24, 6, 8, 8, 0, 0, 1, 1], "marker": {"color": "#5ec491", "opacity": 0.82, "line": {"color": "#0d1117", "width": 0.8}}, "hovertemplate": "Conectividade: %{x}<br>Eixos: %{y}<extra></extra>"}];var _l={"paper_bgcolor": "#161b22", "plot_bgcolor": "#0d1117", "font": {"color": "#7d8590", "family": "IBM Plex Mono", "size": 11}, "hoverlabel": {"bgcolor": "#161b22", "bordercolor": "#4a90b8", "font": {"family": "IBM Plex Mono", "color": "#e6edf3"}}, "margin": {"l": 10, "r": 10, "t": 38, "b": 60}, "title": {"text": "Distribuição de Conectividade", "font": {"size": 11, "color": "#e6edf3", "family": "IBM Plex Mono"}}, "xaxis": {"title": "Conectividade", "gridcolor": "#21262d"}, "yaxis": {"title": "Eixos", "gridcolor": "#21262d"}, "height": 240, "bargap": 0.04};Plotly.newPlot("hist_con",_d,_l,{"responsive": true, "displayModeBar": false});})();</script>
+
+<script type="text/javascript">
+
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#a38d56", "font": {"color": "#e6edf3"}, "id": "BCE", "label": "BCE\n(84)", "shape": "dot", "size": 28.48453608247423, "title": "BCE\nMen\u00e7\u00f5es: 84\nBetweenness: 0.060"}, {"color": "#425d7f", "font": {"color": "#e6edf3"}, "id": "ICS", "label": "ICS\n(5)", "shape": "dot", "size": 10.15979381443299, "title": "ICS\nMen\u00e7\u00f5es: 5\nBetweenness: 0.000"}, {"color": "#3d5a81", "font": {"color": "#e6edf3"}, "id": "Centro Comunit\u00e1rio", "label": "Centro Comunit\u00e1rio\n(1)", "shape": "dot", "size": 9.231958762886597, "title": "Centro Comunit\u00e1rio\nMen\u00e7\u00f5es: 1\nBetweenness: 0.000"}, {"color": "#3e5b80", "font": {"color": "#e6edf3"}, "id": "Hospital Veterin\u00e1rio", "label": "Hospital Veterin\u00e1rio\n(2)", "shape": "dot", "size": 9.463917525773196, "title": "Hospital Veterin\u00e1rio\nMen\u00e7\u00f5es: 2\nBetweenness: 0.000"}, {"color": "#3e5b80", "font": {"color": "#e6edf3"}, "id": "Colina de Professores/Alunos", "label": "Colina de Professores/Alunos\n(2)", "shape": "dot", "size": 9.463917525773196, "title": "Colina de Professores/Alunos\nMen\u00e7\u00f5es: 2\nBetweenness: 0.000"}, {"color": "#475f7d", "font": {"color": "#e6edf3"}, "id": "CO", "label": "CO\n(9)", "shape": "dot", "size": 11.087628865979381, "title": "CO\nMen\u00e7\u00f5es: 9\nBetweenness: 0.032"}, {"color": "#616c72", "font": {"color": "#e6edf3"}, "id": "Faculdade de Direito - FD", "label": "Fac. Direito - FD\n(30)", "shape": "dot", "size": 15.958762886597938, "title": "Faculdade de Direito - FD\nMen\u00e7\u00f5es: 30\nBetweenness: 0.006"}, {"color": "#92855d", "font": {"color": "#e6edf3"}, "id": "PJC", "label": "PJC\n(70)", "shape": "dot", "size": 25.237113402061855, "title": "PJC\nMen\u00e7\u00f5es: 70\nBetweenness: 0.006"}, {"color": "#405c7f", "font": {"color": "#e6edf3"}, "id": "HUB", "label": "HUB\n(4)", "shape": "dot", "size": 9.927835051546392, "title": "HUB\nMen\u00e7\u00f5es: 4\nBetweenness: 0.000"}, {"color": "#3d5a81", "font": {"color": "#e6edf3"}, "id": "CET", "label": "CET\n(1)", "shape": "dot", "size": 9.231958762886597, "title": "CET\nMen\u00e7\u00f5es: 1\nBetweenness: 0.000"}, {"color": "#5c6a74", "font": {"color": "#e6edf3"}, "id": "Faculdade de Educa\u00e7\u00e3o", "label": "Fac. Educa\u00e7\u00e3o\n(26)", "shape": "dot", "size": 15.030927835051546, "title": "Faculdade de Educa\u00e7\u00e3o\nMen\u00e7\u00f5es: 26\nBetweenness: 0.024"}, {"color": "#bb7b41", "font": {"color": "#e6edf3"}, "id": "PAT", "label": "PAT\n(114)", "shape": "dot", "size": 35.44329896907217, "title": "PAT\nMen\u00e7\u00f5es: 114\nBetweenness: 0.002"}, {"color": "#db0100", "font": {"color": "#e6edf3"}, "id": "ICC Norte", "label": "ICC Norte\n(193)", "shape": "dot", "size": 53.7680412371134, "title": "ICC Norte\nMen\u00e7\u00f5es: 193\nBetweenness: 0.026"}, {"color": "#5d6a74", "font": {"color": "#e6edf3"}, "id": "MASC Norte (Amarelinho)", "label": "MASC Norte\n(27)", "shape": "dot", "size": 15.262886597938145, "title": "MASC Norte (Amarelinho)\nMen\u00e7\u00f5es: 27\nBetweenness: 0.020"}, {"color": "#596875", "font": {"color": "#e6edf3"}, "id": "Instituto de Biologia", "label": "Instituto de Biologia\n(24)", "shape": "dot", "size": 14.56701030927835, "title": "Instituto de Biologia\nMen\u00e7\u00f5es: 24\nBetweenness: 0.007"}, {"color": "#3e5b80", "font": {"color": "#e6edf3"}, "id": "PRC", "label": "PRC\n(2)", "shape": "dot", "size": 9.463917525773196, "title": "PRC\nMen\u00e7\u00f5es: 2\nBetweenness: 0.000"}, {"color": "#3e5b80", "font": {"color": "#e6edf3"}, "id": "Faculdade de Ci\u00eancias e Informa\u00e7\u00e3o", "label": "Fac. Ci\u00eancias e Informa\u00e7\u00e3o\n(2)", "shape": "dot", "size": 9.463917525773196, "title": "Faculdade de Ci\u00eancias e Informa\u00e7\u00e3o\nMen\u00e7\u00f5es: 2\nBetweenness: 0.000"}, {"color": "#405c7f", "font": {"color": "#e6edf3"}, "id": "BAES", "label": "BAES\n(4)", "shape": "dot", "size": 9.927835051546392, "title": "BAES\nMen\u00e7\u00f5es: 4\nBetweenness: 0.000"}, {"color": "#445e7e", "font": {"color": "#e6edf3"}, "id": "Reitoria", "label": "Reitoria\n(7)", "shape": "dot", "size": 10.623711340206185, "title": "Reitoria\nMen\u00e7\u00f5es: 7\nBetweenness: 0.000"}, {"color": "#676f6f", "font": {"color": "#e6edf3"}, "id": "Faculdade de Tecnologia e Laborat\u00f3rio de Estrutura (FT)", "label": "Fac. Tecnologia e Laborat\u00f3rio de Estrutura (FT)\n(35)", "shape": "dot", "size": 17.118556701030926, "title": "Faculdade de Tecnologia e Laborat\u00f3rio de Estrutura (FT)\nMen\u00e7\u00f5es: 35\nBetweenness: 0.027"}, {"color": "#4a617b", "font": {"color": "#e6edf3"}, "id": "Faculdade de Medicina (FS)", "label": "Fac. Medicina (FS)\n(12)", "shape": "dot", "size": 11.783505154639176, "title": "Faculdade de Medicina (FS)\nMen\u00e7\u00f5es: 12\nBetweenness: 0.011"}, {"color": "#dc0000", "font": {"color": "#e6edf3"}, "id": "Restaurante Universit\u00e1rio (RU)", "label": "RU (RU)\n(194)", "shape": "dot", "size": 54.0, "title": "Restaurante Universit\u00e1rio (RU)\nMen\u00e7\u00f5es: 194\nBetweenness: 0.001"}, {"color": "#96875c", "font": {"color": "#e6edf3"}, "id": "ICC Centro", "label": "ICC Centro\n(73)", "shape": "dot", "size": 25.932989690721648, "title": "ICC Centro\nMen\u00e7\u00f5es: 73\nBetweenness: 0.014"}, {"color": "#3d5a81", "font": {"color": "#e6edf3"}, "id": "PMUI/OCAII", "label": "PMUI/OCAII\n(1)", "shape": "dot", "size": 9.231958762886597, "title": "PMUI/OCAII\nMen\u00e7\u00f5es: 1\nBetweenness: 0.000"}, {"color": "#4f6379", "font": {"color": "#e6edf3"}, "id": "SG1 ao SG4 (IDA / MUS)", "label": "SG1 ao SG4 (IDA / MUS)\n(16)", "shape": "dot", "size": 12.711340206185568, "title": "SG1 ao SG4 (IDA / MUS)\nMen\u00e7\u00f5es: 16\nBetweenness: 0.005"}, {"color": "#c94424", "font": {"color": "#e6edf3"}, "id": "ICC Sul", "label": "ICC Sul\n(150)", "shape": "dot", "size": 43.79381443298969, "title": "ICC Sul\nMen\u00e7\u00f5es: 150\nBetweenness: 0.057"}, {"color": "#74766a", "font": {"color": "#e6edf3"}, "id": "FACE", "label": "FACE\n(46)", "shape": "dot", "size": 19.670103092783506, "title": "FACE\nMen\u00e7\u00f5es: 46\nBetweenness: 0.008"}, {"color": "#3e5b80", "font": {"color": "#e6edf3"}, "id": "CDT/CEFTRU", "label": "CDT/CEFTRU\n(2)", "shape": "dot", "size": 9.463917525773196, "title": "CDT/CEFTRU\nMen\u00e7\u00f5es: 2\nBetweenness: 0.000"}, {"color": "#3f5b80", "font": {"color": "#e6edf3"}, "id": "MASC Centro (Amarelinho)", "label": "MASC Centro\n(3)", "shape": "dot", "size": 9.695876288659793, "title": "MASC Centro (Amarelinho)\nMen\u00e7\u00f5es: 3\nBetweenness: 0.000"}, {"color": "#3f5b80", "font": {"color": "#e6edf3"}, "id": "MASC Sul (Amarelinho)", "label": "MASC Sul\n(3)", "shape": "dot", "size": 9.695876288659793, "title": "MASC Sul (Amarelinho)\nMen\u00e7\u00f5es: 3\nBetweenness: 0.000"}, {"color": "#3e5b80", "font": {"color": "#e6edf3"}, "id": "CEU", "label": "CEU\n(2)", "shape": "dot", "size": 9.463917525773196, "title": "CEU\nMen\u00e7\u00f5es: 2\nBetweenness: 0.000"}, {"color": "#425d7f", "font": {"color": "#e6edf3"}, "id": "IPOL/REL", "label": "IPOL/REL\n(5)", "shape": "dot", "size": 10.15979381443299, "title": "IPOL/REL\nMen\u00e7\u00f5es: 5\nBetweenness: 0.000"}, {"color": "#425d7f", "font": {"color": "#e6edf3"}, "id": "Instituto de Qu\u00edmica", "label": "Instituto de Qu\u00edmica\n(5)", "shape": "dot", "size": 10.15979381443299, "title": "Instituto de Qu\u00edmica\nMen\u00e7\u00f5es: 5\nBetweenness: 0.000"}, {"color": "#3e5b80", "font": {"color": "#e6edf3"}, "id": "CDT / INFRA", "label": "CDT / INFRA\n(2)", "shape": "dot", "size": 9.463917525773196, "title": "CDT / INFRA\nMen\u00e7\u00f5es: 2\nBetweenness: 0.000"}, {"color": "#4a617b", "font": {"color": "#e6edf3"}, "id": "Banco do Brasil / Caf\u00e9 das Letras", "label": "Banco do Brasil / Caf\u00e9 das Letras\n(12)", "shape": "dot", "size": 11.783505154639176, "title": "Banco do Brasil / Caf\u00e9 das Letras\nMen\u00e7\u00f5es: 12\nBetweenness: 0.001"}, {"color": "#3e5b80", "font": {"color": "#e6edf3"}, "id": "Laborat\u00f3rio de Estudos Geodin\u00e2micos", "label": "Laborat\u00f3rio de Estudos Geodin\u00e2micos\n(2)", "shape": "dot", "size": 9.463917525773196, "title": "Laborat\u00f3rio de Estudos Geodin\u00e2micos\nMen\u00e7\u00f5es: 2\nBetweenness: 0.000"}, {"color": "#435d7e", "font": {"color": "#e6edf3"}, "id": "CIC/EST", "label": "CIC/EST\n(6)", "shape": "dot", "size": 10.391752577319588, "title": "CIC/EST\nMen\u00e7\u00f5es: 6\nBetweenness: 0.000"}, {"color": "#425d7f", "font": {"color": "#e6edf3"}, "id": "Faculdade de Educa\u00e7\u00e3o F\u00edsica", "label": "Fac. Educa\u00e7\u00e3o F\u00edsica\n(5)", "shape": "dot", "size": 10.15979381443299, "title": "Faculdade de Educa\u00e7\u00e3o F\u00edsica\nMen\u00e7\u00f5es: 5\nBetweenness: 0.000"}, {"color": "#425d7f", "font": {"color": "#e6edf3"}, "id": "SG12", "label": "SG12\n(5)", "shape": "dot", "size": 10.15979381443299, "title": "SG12\nMen\u00e7\u00f5es: 5\nBetweenness: 0.000"}, {"color": "#898061", "font": {"color": "#e6edf3"}, "id": "BSA NORTE", "label": "BSA NORTE\n(63)", "shape": "dot", "size": 23.613402061855673, "title": "BSA NORTE\nMen\u00e7\u00f5es: 63\nBetweenness: 0.000"}, {"color": "#8e835f", "font": {"color": "#e6edf3"}, "id": "BSA SUL", "label": "BSA SUL\n(67)", "shape": "dot", "size": 24.54123711340206, "title": "BSA SUL\nMen\u00e7\u00f5es: 67\nBetweenness: 0.012"}]);
+                  edges = new vis.DataSet([{"color": "#8787a5", "from": "BCE", "title": "Co-frequ\u00eancia: 42", "to": "ICC Norte", "value": 42}, {"color": "#7f7f9d", "from": "BCE", "title": "Co-frequ\u00eancia: 38", "to": "ICC Sul", "value": 38}, {"color": "#4b4b69", "from": "BCE", "title": "Co-frequ\u00eancia: 11", "to": "PJC", "value": 11}, {"color": "#575775", "from": "BCE", "title": "Co-frequ\u00eancia: 17", "to": "ICC Centro", "value": 17}, {"color": "#9c9cba", "from": "BCE", "title": "Co-frequ\u00eancia: 53", "to": "Restaurante Universit\u00e1rio (RU)", "value": 53}, {"color": "#3e3e5c", "from": "BCE", "title": "Co-frequ\u00eancia: 4", "to": "Faculdade de Educa\u00e7\u00e3o", "value": 4}, {"color": "#4f4f6d", "from": "BCE", "title": "Co-frequ\u00eancia: 13", "to": "BSA SUL", "value": 13}, {"color": "#535371", "from": "BCE", "title": "Co-frequ\u00eancia: 15", "to": "PAT", "value": 15}, {"color": "#3e3e5c", "from": "BCE", "title": "Co-frequ\u00eancia: 4", "to": "MASC Norte (Amarelinho)", "value": 4}, {"color": "#424260", "from": "BCE", "title": "Co-frequ\u00eancia: 6", "to": "Faculdade de Tecnologia e Laborat\u00f3rio de Estrutura (FT)", "value": 6}, {"color": "#464664", "from": "BCE", "title": "Co-frequ\u00eancia: 8", "to": "SG1 ao SG4 (IDA / MUS)", "value": 8}, {"color": "#40405e", "from": "BCE", "title": "Co-frequ\u00eancia: 5", "to": "Banco do Brasil / Caf\u00e9 das Letras", "value": 5}, {"color": "#424260", "from": "BCE", "title": "Co-frequ\u00eancia: 6", "to": "BSA NORTE", "value": 6}, {"color": "#40405e", "from": "BCE", "title": "Co-frequ\u00eancia: 5", "to": "FACE", "value": 5}, {"color": "#3e3e5c", "from": "BCE", "title": "Co-frequ\u00eancia: 4", "to": "Instituto de Biologia", "value": 4}, {"color": "#424260", "from": "CO", "title": "Co-frequ\u00eancia: 6", "to": "Restaurante Universit\u00e1rio (RU)", "value": 6}, {"color": "#3e3e5c", "from": "CO", "title": "Co-frequ\u00eancia: 4", "to": "ICC Centro", "value": 4}, {"color": "#424260", "from": "CO", "title": "Co-frequ\u00eancia: 6", "to": "ICC Norte", "value": 6}, {"color": "#3e3e5c", "from": "CO", "title": "Co-frequ\u00eancia: 4", "to": "ICC Sul", "value": 4}, {"color": "#4d4d6b", "from": "Faculdade de Direito - FD", "title": "Co-frequ\u00eancia: 12", "to": "BSA NORTE", "value": 12}, {"color": "#444462", "from": "Faculdade de Direito - FD", "title": "Co-frequ\u00eancia: 7", "to": "ICC Sul", "value": 7}, {"color": "#40405e", "from": "Faculdade de Direito - FD", "title": "Co-frequ\u00eancia: 5", "to": "PAT", "value": 5}, {"color": "#4b4b69", "from": "Faculdade de Direito - FD", "title": "Co-frequ\u00eancia: 11", "to": "ICC Norte", "value": 11}, {"color": "#40405e", "from": "Faculdade de Direito - FD", "title": "Co-frequ\u00eancia: 5", "to": "MASC Norte (Amarelinho)", "value": 5}, {"color": "#4d4d6b", "from": "Faculdade de Direito - FD", "title": "Co-frequ\u00eancia: 12", "to": "Restaurante Universit\u00e1rio (RU)", "value": 12}, {"color": "#727290", "from": "PJC", "title": "Co-frequ\u00eancia: 31", "to": "ICC Norte", "value": 31}, {"color": "#535371", "from": "PJC", "title": "Co-frequ\u00eancia: 15", "to": "ICC Sul", "value": 15}, {"color": "#424260", "from": "PJC", "title": "Co-frequ\u00eancia: 6", "to": "Faculdade de Educa\u00e7\u00e3o", "value": 6}, {"color": "#6e6e8c", "from": "PJC", "title": "Co-frequ\u00eancia: 29", "to": "Restaurante Universit\u00e1rio (RU)", "value": 29}, {"color": "#51516f", "from": "PJC", "title": "Co-frequ\u00eancia: 14", "to": "BSA NORTE", "value": 14}, {"color": "#757593", "from": "PJC", "title": "Co-frequ\u00eancia: 33", "to": "PAT", "value": 33}, {"color": "#424260", "from": "PJC", "title": "Co-frequ\u00eancia: 6", "to": "BSA SUL", "value": 6}, {"color": "#535371", "from": "PJC", "title": "Co-frequ\u00eancia: 15", "to": "FACE", "value": 15}, {"color": "#4a4a68", "from": "PJC", "title": "Co-frequ\u00eancia: 10", "to": "ICC Centro", "value": 10}, {"color": "#484866", "from": "PJC", "title": "Co-frequ\u00eancia: 9", "to": "MASC Norte (Amarelinho)", "value": 9}, {"color": "#3e3e5c", "from": "PJC", "title": "Co-frequ\u00eancia: 4", "to": "SG1 ao SG4 (IDA / MUS)", "value": 4}, {"color": "#4a4a68", "from": "Faculdade de Educa\u00e7\u00e3o", "title": "Co-frequ\u00eancia: 10", "to": "ICC Norte", "value": 10}, {"color": "#4b4b69", "from": "Faculdade de Educa\u00e7\u00e3o", "title": "Co-frequ\u00eancia: 11", "to": "ICC Sul", "value": 11}, {"color": "#484866", "from": "Faculdade de Educa\u00e7\u00e3o", "title": "Co-frequ\u00eancia: 9", "to": "Restaurante Universit\u00e1rio (RU)", "value": 9}, {"color": "#40405e", "from": "Faculdade de Educa\u00e7\u00e3o", "title": "Co-frequ\u00eancia: 5", "to": "PAT", "value": 5}, {"color": "#727290", "from": "PAT", "title": "Co-frequ\u00eancia: 31", "to": "BSA NORTE", "value": 31}, {"color": "#555573", "from": "PAT", "title": "Co-frequ\u00eancia: 16", "to": "ICC Centro", "value": 16}, {"color": "#8787a5", "from": "PAT", "title": "Co-frequ\u00eancia: 42", "to": "ICC Sul", "value": 42}, {"color": "#9f9fbd", "from": "PAT", "title": "Co-frequ\u00eancia: 55", "to": "ICC Norte", "value": 55}, {"color": "#9494b2", "from": "PAT", "title": "Co-frequ\u00eancia: 49", "to": "Restaurante Universit\u00e1rio (RU)", "value": 49}, {"color": "#51516f", "from": "PAT", "title": "Co-frequ\u00eancia: 14", "to": "BSA SUL", "value": 14}, {"color": "#70708e", "from": "PAT", "title": "Co-frequ\u00eancia: 30", "to": "FACE", "value": 30}, {"color": "#4f4f6d", "from": "PAT", "title": "Co-frequ\u00eancia: 13", "to": "MASC Norte (Amarelinho)", "value": 13}, {"color": "#b6b6d4", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 67", "to": "ICC Sul", "value": 67}, {"color": "#f0f0ff", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 97", "to": "Restaurante Universit\u00e1rio (RU)", "value": 97}, {"color": "#575775", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 17", "to": "BSA SUL", "value": 17}, {"color": "#727290", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 31", "to": "BSA NORTE", "value": 31}, {"color": "#595977", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 18", "to": "FACE", "value": 18}, {"color": "#666684", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 25", "to": "ICC Centro", "value": 25}, {"color": "#555573", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 16", "to": "MASC Norte (Amarelinho)", "value": 16}, {"color": "#4d4d6b", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 12", "to": "Faculdade de Tecnologia e Laborat\u00f3rio de Estrutura (FT)", "value": 12}, {"color": "#464664", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 8", "to": "SG1 ao SG4 (IDA / MUS)", "value": 8}, {"color": "#4a4a68", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 10", "to": "Banco do Brasil / Caf\u00e9 das Letras", "value": 10}, {"color": "#3e3e5c", "from": "ICC Norte", "title": "Co-frequ\u00eancia: 4", "to": "IPOL/REL", "value": 4}, {"color": "#40405e", "from": "MASC Norte (Amarelinho)", "title": "Co-frequ\u00eancia: 5", "to": "ICC Sul", "value": 5}, {"color": "#4b4b69", "from": "MASC Norte (Amarelinho)", "title": "Co-frequ\u00eancia: 11", "to": "Restaurante Universit\u00e1rio (RU)", "value": 11}, {"color": "#40405e", "from": "MASC Norte (Amarelinho)", "title": "Co-frequ\u00eancia: 5", "to": "BSA NORTE", "value": 5}, {"color": "#484866", "from": "MASC Norte (Amarelinho)", "title": "Co-frequ\u00eancia: 9", "to": "FACE", "value": 9}, {"color": "#595977", "from": "Instituto de Biologia", "title": "Co-frequ\u00eancia: 18", "to": "BSA SUL", "value": 18}, {"color": "#3e3e5c", "from": "Instituto de Biologia", "title": "Co-frequ\u00eancia: 4", "to": "Faculdade de Medicina (FS)", "value": 4}, {"color": "#5d5d7b", "from": "Instituto de Biologia", "title": "Co-frequ\u00eancia: 20", "to": "ICC Sul", "value": 20}, {"color": "#555573", "from": "Instituto de Biologia", "title": "Co-frequ\u00eancia: 16", "to": "Restaurante Universit\u00e1rio (RU)", "value": 16}, {"color": "#424260", "from": "Instituto de Biologia", "title": "Co-frequ\u00eancia: 6", "to": "ICC Centro", "value": 6}, {"color": "#51516f", "from": "Faculdade de Tecnologia e Laborat\u00f3rio de Estrutura (FT)", "title": "Co-frequ\u00eancia: 14", "to": "Restaurante Universit\u00e1rio (RU)", "value": 14}, {"color": "#40405e", "from": "Faculdade de Tecnologia e Laborat\u00f3rio de Estrutura (FT)", "title": "Co-frequ\u00eancia: 5", "to": "SG12", "value": 5}, {"color": "#464664", "from": "Faculdade de Tecnologia e Laborat\u00f3rio de Estrutura (FT)", "title": "Co-frequ\u00eancia: 8", "to": "ICC Sul", "value": 8}, {"color": "#424260", "from": "Faculdade de Tecnologia e Laborat\u00f3rio de Estrutura (FT)", "title": "Co-frequ\u00eancia: 6", "to": "ICC Centro", "value": 6}, {"color": "#40405e", "from": "Faculdade de Tecnologia e Laborat\u00f3rio de Estrutura (FT)", "title": "Co-frequ\u00eancia: 5", "to": "BSA SUL", "value": 5}, {"color": "#444462", "from": "Faculdade de Medicina (FS)", "title": "Co-frequ\u00eancia: 7", "to": "BSA SUL", "value": 7}, {"color": "#40405e", "from": "Faculdade de Medicina (FS)", "title": "Co-frequ\u00eancia: 5", "to": "ICC Sul", "value": 5}, {"color": "#40405e", "from": "Faculdade de Medicina (FS)", "title": "Co-frequ\u00eancia: 5", "to": "Restaurante Universit\u00e1rio (RU)", "value": 5}, {"color": "#727290", "from": "Restaurante Universit\u00e1rio (RU)", "title": "Co-frequ\u00eancia: 31", "to": "BSA SUL", "value": 31}, {"color": "#777795", "from": "Restaurante Universit\u00e1rio (RU)", "title": "Co-frequ\u00eancia: 34", "to": "ICC Centro", "value": 34}, {"color": "#c9c9e7", "from": "Restaurante Universit\u00e1rio (RU)", "title": "Co-frequ\u00eancia: 77", "to": "ICC Sul", "value": 77}, {"color": "#727290", "from": "Restaurante Universit\u00e1rio (RU)", "title": "Co-frequ\u00eancia: 31", "to": "BSA NORTE", "value": 31}, {"color": "#4f4f6d", "from": "Restaurante Universit\u00e1rio (RU)", "title": "Co-frequ\u00eancia: 13", "to": "SG1 ao SG4 (IDA / MUS)", "value": 13}, {"color": "#555573", "from": "Restaurante Universit\u00e1rio (RU)", "title": "Co-frequ\u00eancia: 16", "to": "FACE", "value": 16}, {"color": "#444462", "from": "Restaurante Universit\u00e1rio (RU)", "title": "Co-frequ\u00eancia: 7", "to": "Banco do Brasil / Caf\u00e9 das Letras", "value": 7}, {"color": "#4f4f6d", "from": "ICC Centro", "title": "Co-frequ\u00eancia: 13", "to": "BSA NORTE", "value": 13}, {"color": "#6e6e8c", "from": "ICC Centro", "title": "Co-frequ\u00eancia: 29", "to": "ICC Sul", "value": 29}, {"color": "#555573", "from": "ICC Centro", "title": "Co-frequ\u00eancia: 16", "to": "BSA SUL", "value": 16}, {"color": "#40405e", "from": "ICC Centro", "title": "Co-frequ\u00eancia: 5", "to": "FACE", "value": 5}, {"color": "#464664", "from": "SG1 ao SG4 (IDA / MUS)", "title": "Co-frequ\u00eancia: 8", "to": "ICC Sul", "value": 8}, {"color": "#646482", "from": "ICC Sul", "title": "Co-frequ\u00eancia: 24", "to": "BSA NORTE", "value": 24}, {"color": "#81819f", "from": "ICC Sul", "title": "Co-frequ\u00eancia: 39", "to": "BSA SUL", "value": 39}, {"color": "#464664", "from": "ICC Sul", "title": "Co-frequ\u00eancia: 8", "to": "FACE", "value": 8}, {"color": "#424260", "from": "ICC Sul", "title": "Co-frequ\u00eancia: 6", "to": "Banco do Brasil / Caf\u00e9 das Letras", "value": 6}, {"color": "#3e3e5c", "from": "ICC Sul", "title": "Co-frequ\u00eancia: 4", "to": "Instituto de Qu\u00edmica", "value": 4}, {"color": "#40405e", "from": "FACE", "title": "Co-frequ\u00eancia: 5", "to": "BSA SUL", "value": 5}, {"color": "#4d4d6b", "from": "FACE", "title": "Co-frequ\u00eancia: 12", "to": "BSA NORTE", "value": 12}, {"color": "#4f4f6d", "from": "BSA NORTE", "title": "Co-frequ\u00eancia: 13", "to": "BSA SUL", "value": 13}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"font": {"size": 14, "face": "IBMPlexMono,monospace", "color": "#c9d1d9", "strokeWidth": 2, "strokeColor": "#000000"}, "borderWidth": 1, "borderWidthSelected": 2}, "edges": {"color": {"color": "#2a3545", "highlight": "#4a90b8"}, "smooth": {"type": "continuous"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -150, "centralGravity": 0.005, "springLength": 250, "springConstant": 0.08, "damping": 0.8}, "maxVelocity": 50, "solver": "forceAtlas2Based", "stabilization": {"iterations": 250}}, "interaction": {"hover": true, "tooltipDelay": 100}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        
+</script>
+
+</body>
+</html>

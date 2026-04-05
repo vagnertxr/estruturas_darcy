@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project temp and cache
+temp/
+tmp/
+.cache/# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project temp and cache
+temp/
+tmp/
+.cache/
+.DS_Store
+
+# PyVis temp
+_tmp_net.html
+temp.html
+
+.DS_Store
+
+# PyVis temp
+_tmp_net.html
+temp.html
